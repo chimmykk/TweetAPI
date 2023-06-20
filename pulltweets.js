@@ -1,5 +1,3 @@
-// Search for Tweets(For certain time-frame)
-
 const needle = require('needle');
 
 const token ="$youneeda$100plan";
@@ -7,64 +5,66 @@ const token ="$youneeda$100plan";
 
 const endpointUrl = "https://api.twitter.com/2/tweets/search/recent";
 
-async function getRequest() {
-    // Edit query parameters below
-    // specify a search query, and any additional fields that are required
-    // by default, only the Tweet ID and text fields are returned
-    const params = {
-        'query': 'dogepound',
-        'tweet.fields': 'author_id,public_metrics'
+async function searchTweets() {
+  const params = {
+    query: "dogepound",
+    "tweet.fields": "public_metrics,created_at,text",
+    "expansions": "author_id",
+    "user.fields": "username,name,profile_image_url"
+  };
+
+  const response = await needle("get", endpointUrl, params, {
+    headers: {
+      "User-Agent": "v2RecentSearchJS",
+      authorization: `Bearer ${token}`
+    }
+  });
+// Data-> Data.tweets to fetch text from the twitter tweets
+  if (response.body) {
+    const { data, includes } = response.body;
+    const tweets = [];
+// If Data exist extract the details, id, public_metrics,timestamp,author_id
+    if (data && data.length > 0) {
+      for (const tweet of data) {
+        const {
+          id,
+          public_metrics,
+          created_at,
+          text,
+          author_id
+        } = tweet;
+
+        const {
+          name,
+          username,
+          profile_image_url
+        } = includes.users.find(user => user.id === author_id);
+
+        const tweetData = {
+          id,
+          public_metrics,
+          created_at,
+          text,
+          author: {
+            name,
+            username,
+            profile_image_url
+          }
+        };
+
+        tweets.push(tweetData);
+      }
     }
 
-    const res = await needle('get', endpointUrl, params, {
-        headers: {
-            "User-Agent": "v2RecentSearchJS",
-            "authorization": `Bearer ${token}`
-        }
-    });
-
-    if (res.body) {
-        return res.body;
-    } else {
-        throw new Error('Unsuccessful request');
-    }
+    const output = {
+      tweets
+    };
+// Display a CONSOLE Log json file
+    console.log(JSON.stringify(output, null, 2));
+  } else {
+    throw new Error("Unsuccessful request");
+  }
 }
-
-async function getTweetDetails(tweetId) {
-    const apiUrl = `https://api.twitter.com/2/tweets/${tweetId}?tweet.fields=public_metrics`;
-
-    const res = await needle('get', apiUrl, {
-        headers: {
-            "User-Agent": "v2RecentSearchJS",
-            "authorization": `Bearer ${token}`
-        }
-    });
-
-    if (res.body) {
-        return res.body;
-    } else {
-        throw new Error('Unsuccessful request');
-    }
-}
-
-(async () => {
-    try {
-        // Make request to search for tweets
-        const response = await getRequest();
-        console.dir(response, { depth: null });
-
-        // Get details of public metrics for each tweet
-        if (response.data && response.data.length > 0) {
-            for (const tweetData of response.data) {
-                const tweetDetails = await getTweetDetails(tweetData.id);
-                console.log(`Tweet ${tweetData.id} - Public Metrics:`, tweetDetails.data.public_metrics);
-            }
-        } else {
-            console.log('No tweets found.');
-        }
-    } catch (e) {
-        console.log(e);
-        process.exit(-1);
-    }
-    process.exit();
-})();
+// Updating to push the tweets and automatically saved it on a folder 
+// Under Pulltweets folder
+searchTweets().catch(console.error);
