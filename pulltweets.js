@@ -1,12 +1,12 @@
 const needle = require('needle');
 const fs = require('fs');
 const path = require('path');
+const http = require('http');
 
-const token = "$youneeda$100plan";
-// At least save $4900
-
+const token = "AAAAAAAAAAAAAAAAAAAAACG9oAEAAAAA0a7h3xQL2nEt%2Bo%2BJ%2BT7jKOS7o%2Fs%3Dg29BN5D1ehzxyFQvLfNmszZVbg4x9gkBSXnsDbI3paw1P3WuSl";
 const endpointUrl = "https://api.twitter.com/2/tweets/search/recent";
 
+// Function to search tweets using the Twitter API
 async function searchTweets() {
   const params = {
     query: "dogepound",
@@ -22,12 +22,10 @@ async function searchTweets() {
     }
   });
 
-  // Data-> Data.tweets to fetch text from the twitter tweets
   if (response.body) {
     const { data, includes } = response.body;
     const tweets = [];
 
-    // If Data exist extract the details, id, public_metrics,timestamp,author_id
     if (data && data.length > 0) {
       for (const tweet of data) {
         const {
@@ -69,13 +67,51 @@ async function searchTweets() {
 
     fs.writeFileSync(filePath, jsonOutput);
 
-    // Display a CONSOLE Log json file
     console.log('Output saved to test.json');
   } else {
     throw new Error("Unsuccessful request");
   }
 }
 
-// Updating to push the tweets and automatically saved it on a folder 
-// Under Pulltweets folder
-searchTweets().catch(console.error);
+// Function to serve the JSON file through HTTP
+async function serveJsonFile(req, res) {
+  const filePath = path.join(__dirname, 'pulltweet', 'test.json');
+
+  if (req.url === '/pulltweet/test.json') {
+    fs.readFile(filePath, (err, data) => {
+      if (err) {
+        res.writeHead(500, { 'Content-Type': 'text/plain' });
+        res.end('Internal Server Error');
+      } else {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(data);
+      }
+    });
+  } else {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not Found');
+  }
+}
+
+// Function to start the HTTP server
+async function startServer() {
+  const port = 8080;
+
+  const server = http.createServer(serveJsonFile);
+
+  server.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+  });
+}
+
+// Main function to run the code
+async function run() {
+  try {
+    await searchTweets(); // Search tweets and save the results to test.json
+    await startServer(); // Start the HTTP server to serve the JSON file
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+run(); // Run the main function
