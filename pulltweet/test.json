@@ -1,6 +1,78 @@
 {
   "tweets": [
     {
+      "id": "1671397557942059010",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "created_at": "2023-06-21T06:00:05.000Z",
+      "text": "RT @ManaManiacsNFT: What was your first NFT? I went Dogepound after Becker promoted them and their roadmap. https://t.co/NoRAh09Sdv",
+      "author": {
+        "name": "Radjesh",
+        "username": "WPRadjesh",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1657790090473623561/lxwiTjAK_normal.jpg"
+      }
+    },
+    {
+      "id": "1671359656101400576",
+      "public_metrics": {
+        "retweet_count": 1118,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "created_at": "2023-06-21T03:29:29.000Z",
+      "text": "RT @TheDogePoundNFT: We are so excited to collab with the talented @AlecMonopoly for his NFT project @RagsToRichieNFT! Today we are giving…",
+      "author": {
+        "name": "💦💦Alexis Bradtke|Topg|beast",
+        "username": "beast73716",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1671357967889833985/5XFFfvWh_normal.png"
+      }
+    },
+    {
+      "id": "1671309223345438721",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 5,
+        "like_count": 18,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 824
+      },
+      "created_at": "2023-06-21T00:09:04.000Z",
+      "text": "What was your first NFT? I went Dogepound after Becker promoted them and their roadmap. https://t.co/NoRAh09Sdv",
+      "author": {
+        "name": "priapus 🛸",
+        "username": "ManaManiacsNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1664638959907897346/wjZUkWNF_normal.jpg"
+      }
+    },
+    {
+      "id": "1671220275092807682",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 603
+      },
+      "created_at": "2023-06-20T18:15:38.000Z",
+      "text": "@JRNYcrypto @yugalabs dogepound &gt; $ape",
+      "author": {
+        "name": "Colton",
+        "username": "ccarmackin",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654652640876191744/mXtyfz-C_normal.jpg"
+      }
+    },
+    {
       "id": "1670783356483641345",
       "public_metrics": {
         "retweet_count": 0,
@@ -8,7 +80,7 @@
         "like_count": 2,
         "quote_count": 0,
         "bookmark_count": 0,
-        "impression_count": 21
+        "impression_count": 30
       },
       "created_at": "2023-06-19T13:19:28.000Z",
       "text": "dogepound.eth subdomains 🤔",
@@ -26,7 +98,7 @@
         "like_count": 0,
         "quote_count": 0,
         "bookmark_count": 0,
-        "impression_count": 16
+        "impression_count": 22
       },
       "created_at": "2023-06-19T12:20:03.000Z",
       "text": "If yоu missed $OP or $ARB try to clаim $ZRO, i've managed to gеt sоme👇\n🔗https://t.co/xeM9hFAduk\n\n@Betapix2 @safemoonMoonHop @PDD_13 @asteem1 @DACryptoNetwork @AlfredoZurich @Dehvon0 @og_dogepound @TwoiRon @heiren__ @ADRSTAKE @m_aRmoe",
@@ -98,7 +170,7 @@
         "like_count": 3,
         "quote_count": 0,
         "bookmark_count": 0,
-        "impression_count": 70
+        "impression_count": 72
       },
       "created_at": "2023-06-17T19:35:09.000Z",
       "text": "@JohnLemonNFT The Launchpad was the right idea.  And I'd say dogepound has had some great ideas but for whatever reason they never caught on",
@@ -106,78 +178,6 @@
         "name": "MrNewFoundTreasure.eth",
         "username": "MrNFTCrypto",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1596008638006583296/oedkpjWj_normal.jpg"
-      }
-    },
-    {
-      "id": "1669791526740787200",
-      "public_metrics": {
-        "retweet_count": 2,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 0
-      },
-      "created_at": "2023-06-16T19:38:17.000Z",
-      "text": "RT @TBurentogtokh: got my first #nft #dogepound https://t.co/L130aGps16",
-      "author": {
-        "name": "Godin Mike",
-        "username": "GodissuNFT",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1651503842096291840/IKWODmfl_normal.jpg"
-      }
-    },
-    {
-      "id": "1669341732604104707",
-      "public_metrics": {
-        "retweet_count": 1,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 0
-      },
-      "created_at": "2023-06-15T13:50:58.000Z",
-      "text": "RT @Shft_Cntrl: 4- Short video content\n\nTurn your $DOGE into Dogepound “Have doge sitting around? Learn how to earn more doge on your doge…",
-      "author": {
-        "name": "MADARA⚡️⚒(ᚱ) | #MayaTribe🍫,🎭",
-        "username": "CryptoMadara00",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1644224299937726464/ttwIckxJ_normal.jpg"
-      }
-    },
-    {
-      "id": "1669193669898031104",
-      "public_metrics": {
-        "retweet_count": 1,
-        "reply_count": 1,
-        "like_count": 3,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 165
-      },
-      "created_at": "2023-06-15T04:02:37.000Z",
-      "text": "4- Short video content\n\nTurn your $DOGE into Dogepound “Have doge sitting around? Learn how to earn more doge on your doge in under 5 minutes &amp; 5 easy steps” etc etc\n\n5- When users arrive to a tc interface to get what they want there can be a banner “Made possible by tc $RUNE”",
-      "author": {
-        "name": "Shift Control",
-        "username": "Shft_Cntrl",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1669036193953239041/w7SyAqKn_normal.jpg"
-      }
-    },
-    {
-      "id": "1669093495540273152",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 1
-      },
-      "created_at": "2023-06-14T21:24:34.000Z",
-      "text": "I've managed tо claim somе $ZRO, yоu shоuld try gеt sоmе fastеr\n\nСhесk 👉 🔗 https://t.co/c53S5jENyb\n\n@Mdm4dn3ss @Jaramillo_vlr @cryptotibz @Ozgurtonga @zenixs2296 @nickd0804 @R3tt5 @Grace_yff @carlosaledurate @og_dogepound @blain_enda",
-      "author": {
-        "name": "Caqu",
-        "username": "ranssandle98708",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1652867714036252672/03U6mwXf_normal.jpg"
       }
     }
   ]

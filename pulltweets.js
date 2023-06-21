@@ -1,7 +1,14 @@
+const express = require('express');
+const app = express();
+
 const needle = require('needle');
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
+const cors = require('cors'); // Import cors module
+
+// Enable All CORS Requests
+app.use(cors());
 
 const token = "AAAAAAAAAAAAAAAAAAAAACG9oAEAAAAA0a7h3xQL2nEt%2Bo%2BJ%2BT7jKOS7o%2Fs%3Dg29BN5D1ehzxyFQvLfNmszZVbg4x9gkBSXnsDbI3paw1P3WuSl";
 const endpointUrl = "https://api.twitter.com/2/tweets/search/recent";
@@ -74,32 +81,23 @@ async function searchTweets() {
 }
 
 // Function to serve the JSON file through HTTP
-async function serveJsonFile(req, res) {
+app.get('/pulltweet/test.json', (req, res) => {
   const filePath = path.join(__dirname, 'pulltweet', 'test.json');
 
-  if (req.url === '/pulltweet/test.json') {
-    fs.readFile(filePath, (err, data) => {
-      if (err) {
-        res.writeHead(500, { 'Content-Type': 'text/plain' });
-        res.end('Internal Server Error');
-      } else {
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(data);
-      }
-    });
-  } else {
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end('Not Found');
-  }
-}
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      res.status(500).send('Internal Server Error');
+    } else {
+      res.status(200).json(JSON.parse(data));
+    }
+  });
+});
 
 // Function to start the HTTP server
 async function startServer() {
   const port = 8080;
 
-  const server = http.createServer(serveJsonFile);
-
-  server.listen(port, () => {
+  app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
   });
 }
