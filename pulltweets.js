@@ -15,7 +15,7 @@ app.get('/pulltweet/test.json', (req, res) => {
     if (err) {
       res.status(500).send('Internal Server Error');
     } else {
-    res.setHeader('Access-Control-Allow-Origin', 'https://dogeconnect.netlify.app/');
+    res.setHeader('Access-Control-Allow-Origin', 'https://fluffy-fairy-2956d8.netlify.app/');
       res.status(200).json(JSON.parse(data));
     }
   });
