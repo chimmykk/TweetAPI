@@ -1,183 +1,1632 @@
 {
   "tweets": [
     {
-      "id": "1671397557942059010",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 0
-      },
-      "created_at": "2023-06-21T06:00:05.000Z",
-      "text": "RT @ManaManiacsNFT: What was your first NFT? I went Dogepound after Becker promoted them and their roadmap. https://t.co/NoRAh09Sdv",
-      "author": {
-        "name": "Radjesh",
-        "username": "WPRadjesh",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1657790090473623561/lxwiTjAK_normal.jpg"
-      }
-    },
-    {
-      "id": "1671359656101400576",
-      "public_metrics": {
-        "retweet_count": 1118,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 0
-      },
-      "created_at": "2023-06-21T03:29:29.000Z",
-      "text": "RT @TheDogePoundNFT: We are so excited to collab with the talented @AlecMonopoly for his NFT project @RagsToRichieNFT! Today we are giving…",
-      "author": {
-        "name": "💦💦Alexis Bradtke|Topg|beast",
-        "username": "beast73716",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1671357967889833985/5XFFfvWh_normal.png"
-      }
-    },
-    {
-      "id": "1671309223345438721",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 5,
-        "like_count": 18,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 824
-      },
-      "created_at": "2023-06-21T00:09:04.000Z",
-      "text": "What was your first NFT? I went Dogepound after Becker promoted them and their roadmap. https://t.co/NoRAh09Sdv",
-      "author": {
-        "name": "priapus 🛸",
-        "username": "ManaManiacsNFT",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1664638959907897346/wjZUkWNF_normal.jpg"
-      }
-    },
-    {
-      "id": "1671220275092807682",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 2,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 603
-      },
-      "created_at": "2023-06-20T18:15:38.000Z",
-      "text": "@JRNYcrypto @yugalabs dogepound &gt; $ape",
-      "author": {
-        "name": "Colton",
-        "username": "ccarmackin",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654652640876191744/mXtyfz-C_normal.jpg"
-      }
-    },
-    {
-      "id": "1670783356483641345",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 2,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 30
-      },
-      "created_at": "2023-06-19T13:19:28.000Z",
-      "text": "dogepound.eth subdomains 🤔",
-      "author": {
-        "name": "Sova Media - toppman.eth",
-        "username": "SovaMedia",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1489232353650221068/aO4-afWW_normal.jpg"
-      }
-    },
-    {
-      "id": "1670768404658257920",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 22
-      },
-      "created_at": "2023-06-19T12:20:03.000Z",
-      "text": "If yоu missed $OP or $ARB try to clаim $ZRO, i've managed to gеt sоme👇\n🔗https://t.co/xeM9hFAduk\n\n@Betapix2 @safemoonMoonHop @PDD_13 @asteem1 @DACryptoNetwork @AlfredoZurich @Dehvon0 @og_dogepound @TwoiRon @heiren__ @ADRSTAKE @m_aRmoe",
-      "author": {
-        "name": "Casah",
-        "username": "Casah11656",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654750530873311232/NsaQnnCL_normal.jpg"
-      }
-    },
-    {
-      "id": "1670755113718231045",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 1,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 3
-      },
-      "created_at": "2023-06-19T11:27:14.000Z",
-      "text": "We already have big names that are using Side in their bio, like @On1Force Ape List, @DogePound @ChimpersNFT, @PGodjira and many more. https://t.co/xgnlpNLY9T",
-      "author": {
-        "name": "I am CUBEXFAM",
-        "username": "CUBEXFAM",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654366240700264448/mjZy63g5_normal.jpg"
-      }
-    },
-    {
-      "id": "1670201751209750528",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 4
-      },
-      "created_at": "2023-06-17T22:48:22.000Z",
-      "text": "@JohnLemonNFT The Launchpad was the right idea.  And I'd say dogepound has had some great ideas but for whatever reason they never caught on",
-      "author": {
-        "name": "Shabbazz",
-        "username": "MascOnly",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1669852298032431106/c2w35wnY_normal.jpg"
-      }
-    },
-    {
-      "id": "1670200239662198784",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 5
-      },
-      "created_at": "2023-06-17T22:42:22.000Z",
-      "text": "@JohnLemonNFT The Launchpad was the right idea.  And I'd say dogepound has had some great ideas but for whatever reason they never caught on",
-      "author": {
-        "name": "Arad",
-        "username": "shelltonbigsby",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1669816701251198981/9NaVgONJ_normal.jpg"
-      }
-    },
-    {
-      "id": "1670153126291156992",
+      "id": "1673825016255741952",
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 1,
         "like_count": 3,
-        "quote_count": 0,
-        "bookmark_count": 0,
-        "impression_count": 72
+        "quote_count": 0
       },
-      "created_at": "2023-06-17T19:35:09.000Z",
-      "text": "@JohnLemonNFT The Launchpad was the right idea.  And I'd say dogepound has had some great ideas but for whatever reason they never caught on",
+      "created_at": "2023-06-27T22:45:56.000Z",
+      "text": "@Bairdi_og Whatcha get? \ud83d\ude02",
       "author": {
-        "name": "MrNewFoundTreasure.eth",
-        "username": "MrNFTCrypto",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1596008638006583296/oedkpjWj_normal.jpg"
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673817869375664133",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 11,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T22:17:32.000Z",
+      "text": "@TheDogePoundNFT 20 mins well spent \ud83d\ude02",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1673817434514501633",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T22:15:49.000Z",
+      "text": "@W00DS_eth \ud83e\udd23",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673816948860125188",
+      "public_metrics": {
+        "retweet_count": 9,
+        "reply_count": 17,
+        "like_count": 64,
+        "quote_count": 2
+      },
+      "created_at": "2023-06-27T22:13:53.000Z",
+      "text": "INTERN TAKEOVER\n\nAfter 20 minutes of hard work, we are proud to announce our new Elemental Doge collection.  \n\nTake the red bone to enter our backyard \u26e9\ufe0f\ud83e\uddb4\ud83d\udc36\n\nMuch fun. No utility. Many Awoo.\n\nMint Here \ud83d\udc49 https://t.co/outqlb9TwW https://t.co/QbulZ85gzq",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/FzqXdynXgAAUO-a?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1673791353996574721",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:32:10.000Z",
+      "text": "@jasondesimone It is",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673791297197416448",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 2,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:31:57.000Z",
+      "text": "@DogesLegacy It\u2019s the small things in life right \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673791179559690242",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:31:29.000Z",
+      "text": "@WickedlyNFT \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673791067051769862",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:31:02.000Z",
+      "text": "@Enzus93 \ud83d\ude1c",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673790911191429121",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:30:25.000Z",
+      "text": "@iamlauwolff Same https://t.co/kwRDQhiDUx",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/Fzp_9n7XsAI7cl-?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1673790531409793026",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 2,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:28:54.000Z",
+      "text": "@TheDogePoundNFT Wow \ud83d\ude02",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1673790278937763841",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:27:54.000Z",
+      "text": "@Wh4tWhAAAt Thank you thank you",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673789574600966146",
+      "public_metrics": {
+        "retweet_count": 10,
+        "reply_count": 16,
+        "like_count": 125,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:25:06.000Z",
+      "text": "Minted my Doge Pound Elemental https://t.co/MDkrPtYo6X",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/Fzp-v0DWIAAyBB3?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1673788131714244612",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 8,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:19:22.000Z",
+      "text": "@WickedlyNFT Love it!! \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673787175630979072",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T20:15:34.000Z",
+      "text": "@WickedlyNFT \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673782494917689344",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T19:56:58.000Z",
+      "text": "@hoolimedia_eth It\u2019s true!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673779850102939648",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T19:46:28.000Z",
+      "text": "@Kauiet Doge after that adventure \ud83d\ude02\ud83d\udc47 https://t.co/myBKRGqx7i",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/Fzp1wfPWwAAIpsA?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1673779398787362818",
+      "public_metrics": {
+        "retweet_count": 9,
+        "reply_count": 7,
+        "like_count": 54,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T19:44:40.000Z",
+      "text": "What kind of adventure would you go on with Doge and Hooli? \ud83e\udd14\n\nTell us below! \ud83d\udc47\ud83d\ude24 https://t.co/CCHrMFDD67",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1673756077899276291",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T18:12:00.000Z",
+      "text": "@fewiiichan \ud83d\ude32",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673667522329993218",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 13,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-27T12:20:07.000Z",
+      "text": "@z3rodolxtc Gotta add yourself a Doge Pound as well \ud83d\udcaa",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467846163046405",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 0,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:40.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera @DogecoinFdn @rainbowdotme @DogepoundNft @NFDtoken @Doge5com Be a part of the ecosystem by buying $DOG on Huobi, Sushiswap or Uniswap\nScroll our website and follow our socials to enter into the rabbit hole\nhttps://t.co/AYp7hPGQTs",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467845198454788",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:40.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera @DogecoinFdn @rainbowdotme @DogepoundNft @NFDtoken @Doge5com Apart from these, we have hosted several dance parties, reverse art heists, meme making classes, community borkout sessions and events to bring the doge lovers closer together",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467843826921472",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:40.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera @DogecoinFdn @rainbowdotme @DogepoundNft @NFDtoken We auctioned off the couch from the Doge meme for a whopping 21ETH to @doge5com\n, and also sold the first ever picture of Doge taken by @kabosumama\n as an Open Edition to raise a total of $69000, all for charity\nhttps://t.co/8wNmbCZkHA",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467842555985921",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:39.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera @DogecoinFdn @rainbowdotme @DogepoundNft @NFDtoken We took the biggest Doge fans on a trip with us on a Doge pilgrimage to meet the to meet the actual Doge! \nhttps://t.co/YyVJeLVQY0",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467841389920256",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:39.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera @DogecoinFdn @rainbowdotme @DogepoundNft @NFDtoken We donated $1M to @SavetheChildren and are the top donor contributing to their efforts of feeding and rescuing children in poverty and war struck countries\nhttps://t.co/D6IrxYltW4",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673467840433668098",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T23:06:39.000Z",
+      "text": "@SavetheChildren @kabosumama @PleasrDAO @tessera We collaborated with @kabosumama @dogecoinfdn @rainbowdotme\n@dogepoundNFT @nfdtoken and @PleasrDAO to raise $100k to build a bronze statue of Kabosu for her 17th birthday in her favourite park in Japan\n\nhtps://twitter.com/ownthedoge/status/1648050047844601858?s=20",
+      "author": {
+        "name": "Own The Doge \ud83d\udc36\ud83d\uddbc",
+        "username": "ownthedoge",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1549962330368270336/Ymfk7XtM_normal.jpg"
+      }
+    },
+    {
+      "id": "1673448683696799746",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 16,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T21:50:32.000Z",
+      "text": "@LaL4cas Legend!! Just hold them and enjoy the ride my friend! AWOOOO!!!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673444634217832450",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 13,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T21:34:26.000Z",
+      "text": "@ZssBecker Imma be honest I just like dogs",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673326783817555968",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:46:08.000Z",
+      "text": "@TheDogePoundNFT Awooooooo!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1673326656088424448",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:45:38.000Z",
+      "text": "@hoolimedia_eth @StaxKarrotGang @TheDogePoundNFT \ud83d\ude02 when can we play @StaxKarrotGang!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319975535144961",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:05.000Z",
+      "text": "Read more in-depth about what's happening in the Doge Pound world in our weekly round-up article.\n\nhttps://t.co/xV1EOuX1lm",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319972343259138",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 2,
+        "like_count": 9,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:04.000Z",
+      "text": "Meet some of our cutest furry friends in this thread \ud83d\udc47\n\nhttps://t.co/WF9ePwTCR2",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319969264738306",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 8,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:04.000Z",
+      "text": "Here's what Doge has to say about @elonmusk and Mark Zuckerberg Showdown. \n\nhttps://t.co/Hba2xGIpEq",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319965942841345",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:03.000Z",
+      "text": "Check out this important message from Doge \ud83d\udc40\n\nhttps://t.co/IRzzmjpbGj",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319962679582728",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 10,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:02.000Z",
+      "text": "Our gaming community in the Philippines is growing fast with over 6k members now and several hundred new players a day.\n\nCheck the weekly roundup for more details.\n\nhttps://t.co/8gf7gTELEN",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319959244464129",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:01.000Z",
+      "text": "Here's the final artwork from the session. Thanks for the request @wevans247  \n\nhttps://t.co/BIaquLPma2",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319955792551937",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:00.000Z",
+      "text": "Our community has been enjoying Sketch n Chill sessions with @doge_pumpkin \n\nCheck out the Livestream \ud83d\udc47 \n\nhttps://t.co/E3HXq4iZgT",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319952751681536",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:19:00.000Z",
+      "text": "We had the World's First Twitter Live with 2 AI Characters.\n\nhttps://t.co/Xu3yhfQXhz",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673319949824032773",
+      "public_metrics": {
+        "retweet_count": 9,
+        "reply_count": 6,
+        "like_count": 49,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T13:18:59.000Z",
+      "text": "It's been an exciting week at The Doge Pound. Let's recap what's been happening \ud83d\udc36",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673296846201004035",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T11:47:11.000Z",
+      "text": "@imdudebro @VeeFriendsCards @garyvee I was entertained watching at least \ud83d\ude06",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1673292254255955969",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-26T11:28:56.000Z",
+      "text": "@fewiiichan @JohnLemonNFT \ud83d\ude33",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673103982951055360",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T23:00:48.000Z",
+      "text": "@shahh And a gif if you pick Doge Pound instead https://t.co/gi2HSOsT1S",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1673099735136124935",
+      "public_metrics": {
+        "retweet_count": 3,
+        "reply_count": 8,
+        "like_count": 78,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:43:56.000Z",
+      "text": "@franklinisbored @BoredApeYC Finally you\u2019re coming to Doge Pound!! https://t.co/vhhdFsUMsd",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/FzgLV4CXoAASw9K?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1673098551113424898",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:39:13.000Z",
+      "text": "@EbikeMr Haha yes mine as well tbh \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673098504321867780",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:39:02.000Z",
+      "text": "@FloppySan1 Free entertainment haha",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673098467005145088",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:38:53.000Z",
+      "text": "@cdlongislandco1 https://t.co/OkFiKPCTRq",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1673098265984638976",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:38:05.000Z",
+      "text": "@line_art_nfts \ud83d\ude06 this your dog?",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673098201753108480",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:37:50.000Z",
+      "text": "@70_7h3_m00n https://t.co/wsnkeIYFuq",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1673097929031139331",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T22:36:45.000Z",
+      "text": "@heheColson @WickedlyNFT Maybeeee \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1673050490945392640",
+      "public_metrics": {
+        "retweet_count": 2,
+        "reply_count": 11,
+        "like_count": 79,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T19:28:15.000Z",
+      "text": "\"We can't go for a walk today, it's raining.\"\n\nYour dog: https://t.co/WCyBbkRslU",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/Fzfdao1XwAEGMhP?format=png&name=orig"
+      ]
+    },
+    {
+      "id": "1672959042023571459",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T13:24:52.000Z",
+      "text": "@fewiiichan Awoooo!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672951581694652416",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T12:55:13.000Z",
+      "text": "@LeBoomington I\u2019ll have to try and start using that more!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672802408798224384",
+      "public_metrics": {
+        "retweet_count": 2,
+        "reply_count": 5,
+        "like_count": 36,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T03:02:28.000Z",
+      "text": "@danawhite https://t.co/RDiVNmVAzr",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1672797930762170368",
+      "public_metrics": {
+        "retweet_count": 2,
+        "reply_count": 3,
+        "like_count": 25,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T02:44:40.000Z",
+      "text": "@elonmusk @KettlebellLife AI Doge picked you to win \ud83d\ude02 https://t.co/eXHQ9zCSlA",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1672783500154372096",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T01:47:19.000Z",
+      "text": "@CheerUpHumanity No no now I get to have a more fruitful convo with you instead of the drama \ud83d\ude1c",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672782568981164036",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T01:43:37.000Z",
+      "text": "@theneonbits @TheDogePoundNFT \ud83d\ude0a",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672782478757572608",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T01:43:16.000Z",
+      "text": "@IGDude69 Yeah I agree. We have a lot of growing to do. The real ppl making moves though aren\u2019t engaging on Twitter like a bunch of kids. Just a little sad to see that this sort of content continues to be sought after",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672781852476596230",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T01:40:47.000Z",
+      "text": "@CheerUpHumanity I accept it but just don\u2019t waste my time with it \ud83d\ude02",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672761323648700416",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T00:19:12.000Z",
+      "text": "@GrotesqueChris Welcome back!!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672759261678428162",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 2,
+        "like_count": 15,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T00:11:01.000Z",
+      "text": "@MaddKingMaddox Such a waste of time. Over the years I\u2019ve had to unfollow more and more ppl on various social media sites so I could be more conscious of what I\u2019m consuming. Otherwise you get sucked in and look back and say well that was a total waste",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672758602551926786",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 8,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T00:08:23.000Z",
+      "text": "@TheDogePoundNFT What you think @elonmusk!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672758224196337665",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 5,
+        "like_count": 87,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-25T00:06:53.000Z",
+      "text": "Can we get rid of 90% of these \u201ccrypto influencers\u201d in the space? All I see is countless drama and nonsense\n\nIf we all spent as much time working on pushing the space forward as we do beefing with others online we\u2019d be miles ahead \n\nDon\u2019t waste time you\u2019ll never get back",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672749760510406656",
+      "public_metrics": {
+        "retweet_count": 14,
+        "reply_count": 3,
+        "like_count": 65,
+        "quote_count": 1
+      },
+      "created_at": "2023-06-24T23:33:15.000Z",
+      "text": "Doge weighs in on who he thinks would win the fight of Elon Musk vs Mark Zuckerberg \n\nWho you picking to win? https://t.co/MP9jqw744U",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1672709775472173056",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 8,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:54:22.000Z",
+      "text": "@GrotesqueChris @elonmusk You\u2019re famous!! \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672706689554948096",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:42:06.000Z",
+      "text": "@CulbertsonTyler \ud83c\udf89",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672705985712996353",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:39:19.000Z",
+      "text": "@andrewcryptonft Awoooooo!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672700098231369728",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:15:55.000Z",
+      "text": "@fewiiichan @JohnLemonNFT @W00DS_eth Awesome!!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699850524114949",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:14:56.000Z",
+      "text": "@70_7h3_m00n \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699807364788225",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:14:45.000Z",
+      "text": "@StaticKittyKat Right!! \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699741241499649",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:14:30.000Z",
+      "text": "@ard_white \u2764\ufe0f",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699714448367616",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:14:23.000Z",
+      "text": "@cdlongislandco1 \ud83e\udd70",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699668357169156",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:14:12.000Z",
+      "text": "@BigBoyChinese \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699504800276480",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:13:33.000Z",
+      "text": "@meta_rach \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672699445987647488",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T20:13:19.000Z",
+      "text": "@heheColson \ud83d\ude06",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672667076723372036",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T18:04:42.000Z",
+      "text": "@CheerUpHumanity Yeah this is a separate server you can join too!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672647620001505281",
+      "public_metrics": {
+        "retweet_count": 5,
+        "reply_count": 10,
+        "like_count": 66,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T16:47:23.000Z",
+      "text": "When your parents give you a haircut to save money: https://t.co/0FhftgsPC0",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/FzZv11EXgAIxSC3?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1672645835836780544",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 1,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T16:40:18.000Z",
+      "text": "@Schwifty_ETH We will keep working hard!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672642160909328386",
+      "public_metrics": {
+        "retweet_count": 19,
+        "reply_count": 5,
+        "like_count": 75,
+        "quote_count": 1
+      },
+      "created_at": "2023-06-24T16:25:42.000Z",
+      "text": "Doge Pound gaming community in Philippines is growing fast with over 6k members now and several hundred new ppl a day! \n\nWe\u2019re not short sighted we\u2019re building an empire",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672635252810952704",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 5,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T15:58:14.000Z",
+      "text": "@fewiiichan Wow!!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672492382347042816",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T06:30:32.000Z",
+      "text": "@NFTartist___ @VngNguy15043766 @customcow @cryptomehd @rv_biz @georgealdrich24 @JPSkonieczny @Marc0martin @Mofoknmedic @og_dogepound @davianfachri @yostari @olakunlekayode4 @gegereno @Egi19420539 @Joy32458361 https://t.co/HeDIQAIvpm",
+      "author": {
+        "name": "MARKILO ALLEN",
+        "username": "MARKILOALLEN",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1672491860659523584/Zk_zmEwi_normal.jpg"
+      }
+    },
+    {
+      "id": "1672467436128313344",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T04:51:24.000Z",
+      "text": "@Nishay414Ashish @sonofidelio @FredMurray26466 @saholapa @Ggnato8 @og_dogepound @DeSeyfer @OlrightCarmen @DmitryM10855535 @PolygonToday @Salvoasero3 @Toxictokyo4 @ScottAl72097704 @zingati2 @imtwitting_ok @Zaynfian https://t.co/QoONjWnkQx",
+      "author": {
+        "name": "Berk Bekg\u00f6z",
+        "username": "BerkBekgoz",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1605723865119965185/Z2XT3xgR_normal.jpg"
+      }
+    },
+    {
+      "id": "1672451436536381441",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T03:47:49.000Z",
+      "text": "@theneonbits So cute!!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672440613281603585",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T03:04:49.000Z",
+      "text": "@ELIJAHG82875560 @StyliticKami @QCBlockchain @Pitt1388 @Ig0rleite @tien18141122 @og_dogepound @Khaled31212 @qxFA1kxUI7ssmiQ @DefiAndDao @Hhashirrr @sunnysi27554584 @L_Arc_r @BohnBaumgratz @MohamedElKadri5 @mingyu13141314 https://t.co/0xkvTt73vo",
+      "author": {
+        "name": "John Gibbons",
+        "username": "johngibbonsblog",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1673009634032902145/orPgnzQq_normal.jpg"
+      }
+    },
+    {
+      "id": "1672431242153689089",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 11,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-24T02:27:35.000Z",
+      "text": "@Zeneca We\u2019re happy to help if you need anything. Love the initiative!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672377472376254464",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T22:53:55.000Z",
+      "text": "@moabrudeboy Wen Doge Pound bar?",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672377417216802816",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T22:53:42.000Z",
+      "text": "@PolyDoge \ud83e\udee1",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672377346207240195",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T22:53:25.000Z",
+      "text": "@GrotesqueChris So does Doge!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672377302292877314",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T22:53:14.000Z",
+      "text": "@GrillSergeant15 \ud83d\ude02",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672339364389478401",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 3,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:22:29.000Z",
+      "text": "@JohnLemonNFT \ud83e\udd23",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672339299713392649",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:22:14.000Z",
+      "text": "@charis_ai Awooooo!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672339120163520513",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 10,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:21:31.000Z",
+      "text": "@TheDogePoundNFT Doge is obsessed with talking about pineapple on pizza \ud83d\ude02",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338731141873666",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:19:58.000Z",
+      "text": "@TheDogePoundNFT Awooooo!",
+      "author": {
+        "name": "John Lemon \ud83c\udf4b \ud83d\udc36",
+        "username": "JohnLemonNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338582583779330",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 7,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:19:23.000Z",
+      "text": "@charis_ai So cute!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338552393170945",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:19:16.000Z",
+      "text": "@CreativeJaymie Happy Friday!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338511205105664",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:19:06.000Z",
+      "text": "@IGDude69 Weekend vibes \u2b06\ufe0f",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338462651949056",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:18:54.000Z",
+      "text": "@digiknowassets Awoooo!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338435686662145",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:18:48.000Z",
+      "text": "@CheerUpHumanity Let\u2019s go!!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672338184645013504",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:17:48.000Z",
+      "text": "@Bairdi_og Awoooo!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672337658293395456",
+      "public_metrics": {
+        "retweet_count": 20,
+        "reply_count": 10,
+        "like_count": 84,
+        "quote_count": 2
+      },
+      "created_at": "2023-06-23T20:15:42.000Z",
+      "text": "Important message from Doge \ud83d\udc40 #ai https://t.co/2oV78H2DfR",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1672337278444752897",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:14:12.000Z",
+      "text": "@WickedlyNFT @hoolimedia_eth Have a good weekend!\u2019",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      }
+    },
+    {
+      "id": "1672337230847721474",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 6,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-23T20:14:01.000Z",
+      "text": "@flowerywisdom Gm Flowery!",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
       }
     }
   ]
