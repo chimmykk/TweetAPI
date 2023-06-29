@@ -1,11 +1,178 @@
 {
   "tweets": [
     {
-      "id": "1674093030016417797",
+      "id": "1674299408840531972",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 4,
+        "like_count": 10,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-29T06:11:00.000Z",
+      "text": "I would love if some @LazyLionsNFT whale would accept my .16 WETH collection offer haha..",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      }
+    },
+    {
+      "id": "1674293540636041217",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-29T05:47:41.000Z",
+      "text": "GN gang. https://t.co/m8HHRKkx8n",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/FzxJGeKWcAAXG4O?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1674275790823759875",
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 0,
-        "like_count": 0,
+        "like_count": 1,
+        "quote_count": 2
+      },
+      "created_at": "2023-06-29T04:37:09.000Z",
+      "text": "Disney is overrated",
+      "author": {
+        "name": "DudeBro",
+        "username": "imdudebro",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1673899024842194944/GONLKpTc_normal.jpg"
+      }
+    },
+    {
+      "id": "1674271217329512450",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 4,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-29T04:18:59.000Z",
+      "text": "Me 10:30 at night at the gym on twitter \ud83e\udd21\ud83e\udee1 https://t.co/Cqwjew9Lsl",
+      "author": {
+        "name": "DudeBro",
+        "username": "imdudebro",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1673899024842194944/GONLKpTc_normal.jpg"
+      },
+      "media_urls": [
+        "https://pbs.twimg.com/media/Fzw0zA9XsAA0Clb?format=jpg&name=orig"
+      ]
+    },
+    {
+      "id": "1674239129712746499",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 2,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-29T02:11:29.000Z",
+      "text": "Sometimes.. the best you can do.. is all that you can do\u2026",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      }
+    },
+    {
+      "id": "1674176157346848768",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 3,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-28T22:01:15.000Z",
+      "text": "Is the re-launching of FTX a bullish signal?",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      }
+    },
+    {
+      "id": "1674167042679635970",
+      "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 4,
+        "like_count": 12,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-28T21:25:02.000Z",
+      "text": "I\u2019ve been on a beach all day.. why did Crypto fall so hard today? I didn\u2019t see any big news..",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      }
+    },
+    {
+      "id": "1674142208797057026",
+      "public_metrics": {
+        "retweet_count": 9,
+        "reply_count": 2,
+        "like_count": 56,
+        "quote_count": 3
+      },
+      "created_at": "2023-06-28T19:46:21.000Z",
+      "text": "This is what happens when you give the intern control of the AI prompts @notthreadguy. \ud83d\udc47\ud83d\ude02 https://t.co/XI3ho3Qqpj",
+      "author": {
+        "name": "Doge Pound \ud83d\udc36",
+        "username": "TheDogePoundNFT",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
+      },
+      "media_urls": []
+    },
+    {
+      "id": "1674134323409178648",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 1,
+        "like_count": 1,
+        "quote_count": 1
+      },
+      "created_at": "2023-06-28T19:15:01.000Z",
+      "text": "\ud83e\udee1 #eth is better than #btc",
+      "author": {
+        "name": "DudeBro",
+        "username": "imdudebro",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1673899024842194944/GONLKpTc_normal.jpg"
+      }
+    },
+    {
+      "id": "1674098529038368796",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0
+      },
+      "created_at": "2023-06-28T16:52:47.000Z",
+      "text": "My Mil-Tec Cybernetics Faction Leaders are going to bring the heavy guns to the fight... They got the tech and the firepower.. and spare no quarter to any NWO soldiers.. @NFArcade #rebelstakeover #mission109",
+      "author": {
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
+        "username": "MaddKingMaddox",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
+      }
+    },
+    {
+      "id": "1674093030016417797",
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 2,
+        "like_count": 2,
         "quote_count": 0
       },
       "created_at": "2023-06-28T16:30:56.000Z",
@@ -22,12 +189,12 @@
         "retweet_count": 2,
         "reply_count": 1,
         "like_count": 12,
-        "quote_count": 1
+        "quote_count": 2
       },
       "created_at": "2023-06-28T04:35:27.000Z",
       "text": "This is the alpha many don\u2019t know about.. grab your doges at the bargain price while you can.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -35,9 +202,9 @@
     {
       "id": "1673899164034297856",
       "public_metrics": {
-        "retweet_count": 21,
+        "retweet_count": 22,
         "reply_count": 9,
-        "like_count": 137,
+        "like_count": 158,
         "quote_count": 1
       },
       "created_at": "2023-06-28T03:40:34.000Z",
@@ -51,10 +218,10 @@
     {
       "id": "1673816948860125188",
       "public_metrics": {
-        "retweet_count": 12,
-        "reply_count": 19,
-        "like_count": 69,
-        "quote_count": 3
+        "retweet_count": 13,
+        "reply_count": 21,
+        "like_count": 74,
+        "quote_count": 5
       },
       "created_at": "2023-06-27T22:13:53.000Z",
       "text": "INTERN TAKEOVER\n\nAfter 20 minutes of hard work, we are proud to announce our new Elemental Doge collection.  \n\nTake the red bone to enter our backyard \u26e9\ufe0f\ud83e\uddb4\ud83d\udc36\n\nMuch fun. No utility. Many Awoo.\n\nMint Here \ud83d\udc49 https://t.co/outqlb9TwW https://t.co/QbulZ85gzq",
@@ -70,9 +237,9 @@
     {
       "id": "1673789574600966146",
       "public_metrics": {
-        "retweet_count": 11,
+        "retweet_count": 10,
         "reply_count": 17,
-        "like_count": 127,
+        "like_count": 130,
         "quote_count": 0
       },
       "created_at": "2023-06-27T20:25:06.000Z",
@@ -91,13 +258,13 @@
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 1,
-        "like_count": 9,
+        "like_count": 10,
         "quote_count": 0
       },
       "created_at": "2023-06-27T19:57:06.000Z",
       "text": "2nd full day at beach\u2026 that forth pic is a shot of @elonmusk Starbase in the distance.. https://t.co/VBWKOFzrFG",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -130,13 +297,13 @@
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 1,
-        "like_count": 2,
+        "like_count": 3,
         "quote_count": 0
       },
       "created_at": "2023-06-27T16:41:58.000Z",
       "text": "Crazy call but I think Elementals will make it to public and get pretty darn low in the Dutch auction\u2026 but I admit I could be way wrong..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -152,7 +319,7 @@
       "created_at": "2023-06-27T16:40:53.000Z",
       "text": "I feel like I\u2019ve been bombarded with bot followers",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -163,7 +330,7 @@
         "retweet_count": 0,
         "reply_count": 0,
         "like_count": 0,
-        "quote_count": 0
+        "quote_count": 2
       },
       "created_at": "2023-06-27T12:54:23.000Z",
       "text": "Lotta deaths on twitter these days \ud83d\ude48",
@@ -184,7 +351,7 @@
       "created_at": "2023-06-27T05:25:24.000Z",
       "text": "GN.. See you tomorrow Web3. https://t.co/lzF9IDbJjc",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -203,7 +370,7 @@
       "created_at": "2023-06-27T00:35:06.000Z",
       "text": "@ZenLabs_ so are y\u2019all still working or no?",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -211,7 +378,7 @@
     {
       "id": "1673443736192270336",
       "public_metrics": {
-        "retweet_count": 0,
+        "retweet_count": 1,
         "reply_count": 1,
         "like_count": 20,
         "quote_count": 0
@@ -219,7 +386,7 @@
       "created_at": "2023-06-26T21:30:52.000Z",
       "text": "Yeah buddy!! @NeoTokyoCode rules!! Real stuff going here with this info that will be exclusive..  Dude created a company and sold for 9 figures\u2026 commits to his web3 project and gives members ownership in it while also continuing to create in Web2 also. Elite.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -270,7 +437,7 @@
       "created_at": "2023-06-26T04:37:53.000Z",
       "text": "Quote tweet a photo of your hero.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -286,7 +453,7 @@
       "created_at": "2023-06-26T04:37:21.000Z",
       "text": "Aragon Elessar https://t.co/YepP7SnLJx",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -305,7 +472,7 @@
       "created_at": "2023-06-26T03:33:23.000Z",
       "text": "Excited to potentially get a game created as it\u2019s something I\u2019ve wanted to do my whole life! Being a part of the Builders Lounge will be EXCLUSIVE. \n@NFArcade\n\n #rebelstakeover #mission107",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -321,7 +488,7 @@
       "created_at": "2023-06-26T03:04:07.000Z",
       "text": "Spent a lot of my day traveling but now in sunny South Padre Island!! Excited to spend a few days here. #vacation  Being by the ocean, I gotta rep my @AlphaSharksNFT  might hop over to SpaceX and say hey to @elonmusk and let my 2-year old meet him. https://t.co/MEqzsSbrho",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -395,7 +562,7 @@
       "created_at": "2023-06-25T13:45:20.000Z",
       "text": "https://t.co/efFXzCA2Qh",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -427,7 +594,7 @@
       "created_at": "2023-06-25T04:27:04.000Z",
       "text": "I just want to say that I firmly believe that you should leave the bathroom door OPEN when not in use at home\u2026",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -467,7 +634,7 @@
     {
       "id": "1672749760510406656",
       "public_metrics": {
-        "retweet_count": 14,
+        "retweet_count": 11,
         "reply_count": 3,
         "like_count": 65,
         "quote_count": 1
@@ -492,7 +659,7 @@
       "created_at": "2023-06-24T21:18:07.000Z",
       "text": "Taking a nap.. it\u2019s deserved..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -508,7 +675,7 @@
       "created_at": "2023-06-24T18:55:44.000Z",
       "text": "Yuga apes telling people to stop FUDing and we need to be more worried about Russia haha\u2026 quite a day..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -524,7 +691,7 @@
       "created_at": "2023-06-24T18:44:56.000Z",
       "text": "Love that fiery slam dunk!! Let\u2019s go @NeoTokyoCode and @NFArcade ! \n #rebelstakeover #mission106",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -534,13 +701,13 @@
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 0,
-        "like_count": 7,
+        "like_count": 6,
         "quote_count": 0
       },
       "created_at": "2023-06-24T18:42:50.000Z",
       "text": "Plenty of benefits to browser-based gaming from mobility to ease of tech requirements!  Accessibility abound!  Let\u2019s get it and show the world!  #mission105 &amp; #RebelsTakeOver",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -548,7 +715,7 @@
     {
       "id": "1672647620001505281",
       "public_metrics": {
-        "retweet_count": 5,
+        "retweet_count": 6,
         "reply_count": 10,
         "like_count": 67,
         "quote_count": 0
@@ -567,7 +734,7 @@
     {
       "id": "1672642160909328386",
       "public_metrics": {
-        "retweet_count": 19,
+        "retweet_count": 18,
         "reply_count": 5,
         "like_count": 75,
         "quote_count": 1
@@ -591,7 +758,7 @@
       "created_at": "2023-06-24T05:06:37.000Z",
       "text": "GN gang\u2026 sleep well and rest up.. we got the future to shape and mold.. AAAWWWWOOOOO.. https://t.co/b3Yyfbg9ir",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -610,7 +777,7 @@
       "created_at": "2023-06-24T02:55:04.000Z",
       "text": "@machibigbrother Hey Machi, instead of dumping all of those why don\u2019t you give just one to me and bless an almost 20-year teacher.. hah.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -645,7 +812,7 @@
       "created_at": "2023-06-23T21:46:57.000Z",
       "text": "Whew.. Been driving all day on a road trip\u2026 what\u2019s new Web3? Anything exciting today?",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -697,7 +864,7 @@
       "created_at": "2023-06-23T07:01:27.000Z",
       "text": "Pixel me..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -748,7 +915,7 @@
       "created_at": "2023-06-22T23:14:08.000Z",
       "text": "Looks like we are on a MAYC floor watch right now as a Web3 space\u2026 I\u2019ll grab one at .3",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -783,7 +950,7 @@
       "created_at": "2023-06-22T20:51:32.000Z",
       "text": "Love to see all the applications flowing in for @BitcoinMiners_ \u2026 it\u2019s def one to try and get in on! Come join the discord to see!",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -799,7 +966,7 @@
       "created_at": "2023-06-22T19:34:09.000Z",
       "text": "It\u2019s sort of funny.. you\u2019d think conspiracy theorist kind of people would be open-minded people, willing to see all angles, but they actually are some of the most closed-minded people I\u2019ve ever experienced.. and yes, sometimes their thoughts are absolutely nuts..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -831,7 +998,7 @@
       "created_at": "2023-06-22T14:26:57.000Z",
       "text": "GM to the GM gang!",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -860,13 +1027,13 @@
       "public_metrics": {
         "retweet_count": 1,
         "reply_count": 2,
-        "like_count": 19,
+        "like_count": 18,
         "quote_count": 0
       },
       "created_at": "2023-06-21T21:39:37.000Z",
       "text": "Absolute epic mint experience with @Nafflesofficial...Minted multiple free for a total of a little over $4.00..  Want the alpha on this, well I highly recommend you consider taking a look at them.. Not for a short term flip but for the next bull run..Well done and NT stamp on it.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -882,7 +1049,7 @@
       "created_at": "2023-06-21T21:35:07.000Z",
       "text": "Web3 is funny because you have these pretentious know-it-alls do all these spaces with hundreds of listeners and 5-6 figures of followers and they get high and mighty about the space and then....  a damn black rock is #1 trending and volume on OS right now.. haha.",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -892,13 +1059,13 @@
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 4,
-        "like_count": 7,
+        "like_count": 6,
         "quote_count": 0
       },
       "created_at": "2023-06-21T20:14:41.000Z",
       "text": "Because people are like this, especially on social media and trying to get clicks.. how long until someone thinks this Titanic sub situation is a conspiracy to off one of these people?",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -949,7 +1116,7 @@
       "created_at": "2023-06-21T17:45:30.000Z",
       "text": "INCREDIBLY bullish\u2026",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1035,7 +1202,7 @@
       "created_at": "2023-06-21T12:32:48.000Z",
       "text": "GM everyone.  AAAAAAWWWWOOOOO!!!   #EveryDogeHasItsDay https://t.co/jZsBPljrph",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -1068,13 +1235,13 @@
       "public_metrics": {
         "retweet_count": 0,
         "reply_count": 0,
-        "like_count": 11,
+        "like_count": 10,
         "quote_count": 0
       },
       "created_at": "2023-06-21T04:48:10.000Z",
       "text": "This is my kind of ship and ready to kick some alien butt!  The only good bug is a dead bug! \u2620\ufe0f \n\n@NFArcade\n#mission104\n#rebelstakeover https://t.co/895Sn2rRqS",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -1086,7 +1253,7 @@
       "id": "1671345097126952960",
       "public_metrics": {
         "retweet_count": 21,
-        "reply_count": 110,
+        "reply_count": 109,
         "like_count": 137,
         "quote_count": 1
       },
@@ -1142,7 +1309,7 @@
       "created_at": "2023-06-20T19:44:42.000Z",
       "text": "Life is not a matter of holding good cards, but sometimes, playing a poor hand well\u2026",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1158,31 +1325,12 @@
       "created_at": "2023-06-20T17:35:47.000Z",
       "text": "Got my second ordinal this morning and my first mint of an ordinal!  @Ordillasbtc is def a project to watch.  Overcoming the mint hiccups and about to rise.  They\u2019ve had excellent production value and detail leading up to launch so I don\u2019t see that aspect going away. https://t.co/3rV2OH5fGf",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
       "media_urls": [
         "https://pbs.twimg.com/media/FzFU3BLXsAAcU7T?format=jpg&name=orig"
-      ]
-    },
-    {
-      "id": "1671209598009716763",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 0,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-20T17:33:12.000Z",
-      "text": "@recursivepunks was officially my first ordinal I bought a few days ago.. https://t.co/CTKKgWlpB0",
-      "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
-        "username": "MaddKingMaddox",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/FzFURDzXsBQo1Ao?format=jpg&name=orig"
       ]
     },
     {
@@ -1204,7 +1352,7 @@
     {
       "id": "1671170657353355265",
       "public_metrics": {
-        "retweet_count": 6,
+        "retweet_count": 5,
         "reply_count": 0,
         "like_count": 45,
         "quote_count": 0
@@ -1231,7 +1379,7 @@
       "created_at": "2023-06-20T05:57:57.000Z",
       "text": "GN.. exhausted. https://t.co/AndTlQqfQb",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -1250,7 +1398,7 @@
       "created_at": "2023-06-20T05:57:34.000Z",
       "text": "Three Ordinal projects I\u2019m excited about that I have WL for.  \n\n1) @Ordillasbtc \n2) @BitcoinMiners_ \n3) @Titan_Meka",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1266,7 +1414,7 @@
       "created_at": "2023-06-20T05:37:16.000Z",
       "text": "Madd_Dawg\u2019s Down Low 06/20:\n\n1) Rumor has it that Ginsler may be on the outs and gotten rid of\u2026 question is.. will someone worse step in to that role and who will be pulling their strings.. Guess we will find out..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1282,7 +1430,7 @@
       "created_at": "2023-06-20T04:57:22.000Z",
       "text": "Looking to connect with more Web3 gamers since its the future and all... Let's start with STEAM.  I'm and OLD school steam gamer haha..Here's my friend code for you to add me: 1093691",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1314,7 +1462,7 @@
       "created_at": "2023-06-19T22:44:12.000Z",
       "text": "Come check out two A.I.s having a conversation with one another!  Do it for me\u2026 the most honest guy in Web3.0..",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1429,7 +1577,7 @@
       "created_at": "2023-06-18T17:38:52.000Z",
       "text": "Happy Father\u2019s Day to all those who are dads and all those who act like dads in someone else\u2019s life.. \n\nAs an educator and coach of almost 20 years now, I can\u2019t tell you how important it is to be that person in someone else\u2019s life\u2026",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1459,7 +1607,7 @@
         "retweet_count": 0,
         "reply_count": 5,
         "like_count": 22,
-        "quote_count": 1
+        "quote_count": 3
       },
       "created_at": "2023-06-18T13:57:00.000Z",
       "text": "gm, it's National Go Fishing Day! I'll be lakeside all day hoping to get lucky \ud83c\udfa3",
@@ -1506,13 +1654,13 @@
       "public_metrics": {
         "retweet_count": 1,
         "reply_count": 3,
-        "like_count": 15,
+        "like_count": 14,
         "quote_count": 0
       },
       "created_at": "2023-06-18T05:37:04.000Z",
       "text": "Villains of the 80s.. https://t.co/YfUhAitDbt",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       },
@@ -1525,13 +1673,13 @@
       "public_metrics": {
         "retweet_count": 2,
         "reply_count": 1,
-        "like_count": 14,
+        "like_count": 13,
         "quote_count": 0
       },
       "created_at": "2023-06-18T04:55:40.000Z",
       "text": "I'm applying for the @BitcoinMiners_  Picklist!\n\nMy address is: bc1pr94zdkwz77q8m37uv0adnftgvw7t3v72shwjlnm6aazrfar5zz6sk5vpqk\n\nYou can apply here: https://t.co/O8kAGstGIY",
       "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
+        "name": "madddawg.eth \ud83d\udc51 | NFArcade \ud83d\udd79\ufe0f",
         "username": "MaddKingMaddox",
         "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
       }
@@ -1552,170 +1700,6 @@
         "profile_image_url": "https://pbs.twimg.com/profile_images/1574852153650384907/RrBQZcJh_normal.jpg"
       },
       "media_urls": []
-    },
-    {
-      "id": "1670126924511715331",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 3,
-        "like_count": 3,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T17:51:02.000Z",
-      "text": "Weekend Cheat Meal https://t.co/aQlzsEIX7Q",
-      "author": {
-        "name": "DudeBro",
-        "username": "imdudebro",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1673899024842194944/GONLKpTc_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/Fy17latX0AANVj6?format=jpg&name=orig"
-      ]
-    },
-    {
-      "id": "1670117914123333632",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 1,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T17:15:14.000Z",
-      "text": "My 3 @TwelvePepes that Im def happy about!! Very #Pepe ish.. https://t.co/6FErjDUK28",
-      "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
-        "username": "MaddKingMaddox",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/Fy1upDFXoAA9SWr?format=jpg&name=orig",
-        "https://pbs.twimg.com/media/Fy1wpALXgAEffdH?format=jpg&name=orig",
-        "https://pbs.twimg.com/media/Fy1wqQ-XsAEK4tK?format=jpg&name=orig"
-      ]
-    },
-    {
-      "id": "1670106146613477378",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 1,
-        "like_count": 8,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T16:28:29.000Z",
-      "text": "Wow!  Just minted this top ranked rare @TwelvePepes !! Let's GO!!! https://t.co/PMOAU5B3tl",
-      "author": {
-        "name": "madddawg.eth | NFArcade \ud83d\udd79\ufe0f",
-        "username": "MaddKingMaddox",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1654579469162795009/_E7mJOjq_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/Fy1odd7WAAMelhP?format=jpg&name=orig"
-      ]
-    },
-    {
-      "id": "1670079190589231104",
-      "public_metrics": {
-        "retweet_count": 7,
-        "reply_count": 8,
-        "like_count": 58,
-        "quote_count": 1
-      },
-      "created_at": "2023-06-17T14:41:22.000Z",
-      "text": "Doges on Monday vs Doges on Saturday \ud83d\ude02\ud83d\udc47 https://t.co/gd3N0PkjGj",
-      "author": {
-        "name": "Doge Pound \ud83d\udc36",
-        "username": "TheDogePoundNFT",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/Fy1PzdBWwAAdwkk?format=jpg&name=orig",
-        "https://pbs.twimg.com/media/Fy1P1uyXsAAHSyi?format=jpg&name=orig"
-      ]
-    },
-    {
-      "id": "1670077118816952320",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 2,
-        "like_count": 18,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T14:33:08.000Z",
-      "text": "Doge is basically Jim from the office \ud83e\udd23",
-      "author": {
-        "name": "W 0 0 D S",
-        "username": "W00DS_eth",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1478048141861699586/WmKdqH7y_normal.jpg"
-      }
-    },
-    {
-      "id": "1669908202450739200",
-      "public_metrics": {
-        "retweet_count": 1,
-        "reply_count": 0,
-        "like_count": 14,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T03:21:55.000Z",
-      "text": "ALERT! \n\n@SteadyStackNFT discord seems compromised. Be safe and click no links!",
-      "author": {
-        "name": "W 0 0 D S",
-        "username": "W00DS_eth",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1478048141861699586/WmKdqH7y_normal.jpg"
-      }
-    },
-    {
-      "id": "1669883970761228288",
-      "public_metrics": {
-        "retweet_count": 34,
-        "reply_count": 15,
-        "like_count": 106,
-        "quote_count": 8
-      },
-      "created_at": "2023-06-17T01:45:38.000Z",
-      "text": "Is @Twitter in TURMOIL?! \ud83d\udc26 \n\nDoge and HR Face-Off in Unexpected Meeting! \ud83d\udc40 https://t.co/nglJusAJny",
-      "author": {
-        "name": "Doge Pound \ud83d\udc36",
-        "username": "TheDogePoundNFT",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1592636750249295873/XH7Nm_uV_normal.jpg"
-      },
-      "media_urls": []
-    },
-    {
-      "id": "1669881244165853200",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 3,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-17T01:34:48.000Z",
-      "text": "The key to getting through a workout is smiling \ud83d\ude01 https://t.co/TJWh12siha",
-      "author": {
-        "name": "DudeBro",
-        "username": "imdudebro",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1673899024842194944/GONLKpTc_normal.jpg"
-      },
-      "media_urls": []
-    },
-    {
-      "id": "1669835931514286080",
-      "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 0,
-        "like_count": 1,
-        "quote_count": 0
-      },
-      "created_at": "2023-06-16T22:34:44.000Z",
-      "text": "AWOO!! https://t.co/l2Hu95aUbR",
-      "author": {
-        "name": "Wev \ud83d\udc3e\ud83d\udc38",
-        "username": "wevans247",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1673875180295450626/YJt4gY1Q_normal.jpg"
-      },
-      "media_urls": [
-        "https://pbs.twimg.com/media/Fyxy6hNWwAEm1RP?format=png&name=orig"
-      ]
     }
   ]
 }
