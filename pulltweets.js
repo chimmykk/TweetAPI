@@ -15,7 +15,7 @@ app.get('/pulltweet/test.json', (req, res) => {
     if (err) {
       res.status(500).send('Internal Server Error');
     } else {
-    res.setHeader('Access-Control-Allow-Origin', 'https://new-dogie-sepia.vercel.app');
+    res.setHeader('Access-Control-Allow-Origin', 'https://elegant-souffle-bd5e28.netlify.app');
       res.status(200).json(JSON.parse(data));
     }
   });
