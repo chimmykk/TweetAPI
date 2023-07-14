@@ -4,7 +4,7 @@ import pyautogui
 
 def automate_chatbot():
     # Open the chatbot application
-    subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
+    process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
 
     time.sleep(2)
 
@@ -34,13 +34,10 @@ def automate_chatbot():
     # Add a 2-second delay
     time.sleep(2)
 
-    # Enable screen recording
-    pyautogui.hotkey('alt', 'f9')
-
     # Wait for 1 minute
     time.sleep(60)
 
     # Close the application
-    pyautogui.hotkey('alt', 'f4')
+    process.terminate()
 
 automate_chatbot()
