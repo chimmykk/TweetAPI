@@ -31,7 +31,28 @@ def automate_chatbot_and_upload():
 
     time.sleep(2)
 
-    # Rest of the code to automate the chatbot interactions...
+    # Press "Tab" key three times to navigate to the Doge option
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+
+    # Press "Enter" key to select the Doge option
+    pyautogui.press('enter')
+
+    time.sleep(2)
+
+    # Press "Tab" key three times to trigger three tabs again
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+
+    time.sleep(2)
+
+    # Type "what is your name"
+    pyautogui.typewrite("what is your name")
+
+    # Press "Enter" key to send the message
+    pyautogui.press('enter')
 
     # Add a 2-second delay
     time.sleep(2)
@@ -45,9 +66,8 @@ def automate_chatbot_and_upload():
     # Close the application
     pyautogui.hotkey('alt', 'f4')
 
-    # Check for video files in the folder
+    # Check for video files in the folder and upload to Dropbox
     video_files = [file for file in os.listdir(VIDEO_FOLDER_PATH) if file.endswith('.mp4')]
-
     if video_files:
         print("Found video files:", video_files)
         for video_file in video_files:
