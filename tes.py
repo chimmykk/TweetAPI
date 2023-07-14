@@ -6,7 +6,7 @@ import dropbox
 from dropbox.exceptions import AuthError
 
 # Dropbox access token
-DROPBOX_ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
+DROPBOX_ACCESS_TOKEN = 'sl.BiOgGOs01psQOHoBp5KeH0M514FDi6kKw6ECsqMAi4uESg8X3Vq6P0sAfAJlAZvcjRMeVk-nWyhu37EHEQz1Bv3wQIiDO8bxsYNTeUAC09TJzCoh_K_e6ZWm1XG4uCgLnqKXNf8'
 
 # Folder path to check for videos
 VIDEO_FOLDER_PATH = r'C:\Users\paperspace\Videos\Chatbot_characters'
