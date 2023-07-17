@@ -60,9 +60,9 @@ try:
             time.sleep(2)
 
             # Run Bandicam application
-            bandicam_process = subprocess.Popen(r'C:\Program Files\Bandicam\bdcam.exe')
+            bandicam_process = subprocess.Popen(r'"C:\Program Files\Bandicam\bdcam.exe"')
 
-            time.sleep(2)
+            time.sleep(10)  # Adjust the sleep time based on the required wait for Bandicam to start
 
             # Press "Tab" key three times to navigate to the Doge option
             pyautogui.press('tab')
