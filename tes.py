@@ -3,12 +3,19 @@ import time
 import pyautogui
 import requests
 import os
+import tweepy
 
 # Set bearer token
 bearer_token = "AAAAAAAAAAAAAAAAAAAAACzGoQEAAAAAPBUyxZyXrtNzab8B3guBR9e994k%3DDieBbwNezSIZ26haV9I17LcWMpOf2z7nPkC9gYKFJEwL0AnTF3"
 
 # Set endpoint URL
 endpoint_url = "https://api.twitter.com/2/tweets/search/recent"
+
+# Set Twitter API keys
+consumer_key = "YOUR_CONSUMER_KEY"
+consumer_secret = "YOUR_CONSUMER_SECRET"
+access_token = "YOUR_ACCESS_TOKEN"
+access_token_secret = "YOUR_ACCESS_TOKEN_SECRET"
 
 def get_request():
     # Edit query parameters below
@@ -31,6 +38,25 @@ def get_request():
         return response_json
     else:
         raise Exception('Unsuccessful request')
+
+def upload_tweet(media_files, tweet_id):
+    # Authenticate to Twitter
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+
+    # Create API object
+    api = tweepy.API(auth)
+
+    # Upload or send the tweet
+    if len(media_files) > 0:
+        media_ids = []
+        for media_file in media_files:
+            media = api.media_upload(media_file)
+            media_ids.append(media.media_id)
+
+        api.update_status(status=f"Tweet with Media ID: {tweet_id}", media_ids=media_ids)
+    else:
+        api.update_status(status=f"Tweet without Media ID: {tweet_id}")
 
 try:
     # Make request
@@ -93,12 +119,24 @@ try:
             # Wait for Bandicam process to terminate
             bandicam_process.wait()
 
-            # Rename folders to tweet_id inside the Bandicam directory
-            bandicam_dir = r'C:\Program Files\Bandicam'
-            for folder in os.listdir(bandicam_dir):
-                folder_path = os.path.join(bandicam_dir, folder)
-                if os.path.isdir(folder_path):
-                    os.rename(folder_path, os.path.join(bandicam_dir, str(tweet_id)))
+            # Extract the tweet ID and find media files
+            print("Extracted Tweet ID:", tweet_id)
+
+            media_path = r"C:\Users\paperspace\Documents\Bandicam"
+            media_files = []
+
+            if os.path.exists(media_path) and os.path.isdir(media_path):
+                for file in os.listdir(media_path):
+                    file_path = os.path.join(media_path, file)
+                    if os.path.isfile(file_path):
+                        media_files.append(file_path)
+
+            print("Media Files Found:")
+            for media_file in media_files:
+                print(media_file)
+
+            # Upload or send tweet with media
+            upload_tweet(media_files, tweet_id)
 
 except Exception as e:
     print(e)
