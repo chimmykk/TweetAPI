@@ -132,13 +132,13 @@ try:
             except Exception as e:
                 print(f"Error during authentication: {e}")
 
-            # Set the file path and status text
-            if media_files:
-                file_path = media_files[0]  # Assuming the first media file found is the one to be posted
+            # Upload and post all media files
+            for media_file in media_files:
+                # Set the status text
                 status_text = "Message with media"
 
                 # Media upload through API v1.1
-                media_info = api.media_upload(filename=file_path)
+                media_info = api.media_upload(filename=media_file)
 
                 # Tweet posting through API v2.0
                 tweet = client.create_tweet(text=status_text, media_ids=[media_info.media_id], in_reply_to_tweet_id=tweet_id)
