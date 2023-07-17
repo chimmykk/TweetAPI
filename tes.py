@@ -11,11 +11,13 @@ bearer_token = "AAAAAAAAAAAAAAAAAAAAACzGoQEAAAAAPBUyxZyXrtNzab8B3guBR9e994k%3DDi
 # Set endpoint URL
 endpoint_url = "https://api.twitter.com/2/tweets/search/recent"
 
-# Set Twitter API keys
-consumer_key = "YOUR_CONSUMER_KEY"
-consumer_secret = "YOUR_CONSUMER_SECRET"
-access_token = "YOUR_ACCESS_TOKEN"
-access_token_secret = "YOUR_ACCESS_TOKEN_SECRET"
+# Replace with your actual consumer key and secret
+CONSUMER_KEY = "Vkm90x8yGmUtAJSNCcUSlh7TX"
+CONSUMER_SEC = "hRusPRyjS72NZ2uvKzRpmTDkeJL6FKNsQGvz9t7o6oaj9v5gz1"
+
+# Replace with your actual access token and secret
+AUTH_ACC = "1576014870084030465-eNPRHtueYUoaxKlYJKWVgtnxgzk1Jq"
+AUTH_SEC = "xD9IXgJjthdxLzqn9b76i1k0GtKYT0TPeyyMdEIPhHOSl"
 
 def get_request():
     # Edit query parameters below
@@ -38,25 +40,6 @@ def get_request():
         return response_json
     else:
         raise Exception('Unsuccessful request')
-
-def upload_tweet(media_files, tweet_id):
-    # Authenticate to Twitter
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
-
-    # Create API object
-    api = tweepy.API(auth)
-
-    # Upload or send the tweet
-    if len(media_files) > 0:
-        media_ids = []
-        for media_file in media_files:
-            media = api.media_upload(media_file)
-            media_ids.append(media.media_id)
-
-        api.update_status(status=f"Tweet with Media ID: {tweet_id}", media_ids=media_ids)
-    else:
-        api.update_status(status=f"Tweet without Media ID: {tweet_id}")
 
 try:
     # Make request
@@ -135,8 +118,31 @@ try:
             for media_file in media_files:
                 print(media_file)
 
-            # Upload or send tweet with media
-            upload_tweet(media_files, tweet_id)
+            # Authenticate using API v1.1
+            auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SEC)
+            auth.set_access_token(AUTH_ACC, AUTH_SEC)
+            api = tweepy.API(auth, wait_on_rate_limit=True)
+
+            # Authenticate using API v2.0
+            client = tweepy.Client(bearer_token, CONSUMER_KEY, CONSUMER_SEC, AUTH_ACC, AUTH_SEC, wait_on_rate_limit=True)
+
+            try:
+                api.verify_credentials()
+                print("V1.1 Authentication OK")
+            except Exception as e:
+                print(f"Error during authentication: {e}")
+
+            # Set the file path and status text
+            if media_files:
+                file_path = media_files[0]  # Assuming the first media file found is the one to be posted
+                status_text = "Message with media"
+
+                # Media upload through API v1.1
+                media_info = api.media_upload(filename=file_path)
+
+                # Tweet posting through API v2.0
+                tweet = client.create_tweet(text=status_text, media_ids=[media_info.media_id], in_reply_to_tweet_id=tweet_id)
+                print("Reply posted successfully.")
 
 except Exception as e:
     print(e)
