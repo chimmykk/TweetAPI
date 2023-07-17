@@ -49,6 +49,11 @@ try:
 
             time.sleep(2)
 
+            # Run Bandicam application
+            subprocess.Popen(r'C:\Program Files\Bandicam\bdcam.exe')
+
+            time.sleep(2)
+
             # Press "Tab" key three times to navigate to the Doge option
             pyautogui.press('tab')
             pyautogui.press('tab')
@@ -75,14 +80,8 @@ try:
             # Add a 2-second delay
             time.sleep(2)
 
-            # Press F12 button
-            pyautogui.press('f12')
-
             # Wait for 1 minute
             time.sleep(60)
-
-            # Trigger another F12 button after 1 minute
-            pyautogui.press('f12')
 
 except Exception as e:
     print(e)
