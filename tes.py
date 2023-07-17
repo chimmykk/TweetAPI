@@ -1,31 +1,8 @@
 import subprocess
 import time
 import pyautogui
-import os
-import dropbox
-from dropbox.exceptions import AuthError
 
-# Dropbox access token
-DROPBOX_ACCESS_TOKEN = 'sl.BiOgGOs01psQOHoBp5KeH0M514FDi6kKw6ECsqMAi4uESg8X3Vq6P0sAfAJlAZvcjRMeVk-nWyhu37EHEQz1Bv3wQIiDO8bxsYNTeUAC09TJzCoh_K_e6ZWm1XG4uCgLnqKXNf8'
-
-# Folder path to check for videos
-VIDEO_FOLDER_PATH = r'C:\Users\paperspace\Videos\Chatbot_characters'
-
-def upload_video_to_dropbox(video_path):
-    # Initialize Dropbox client
-    dbx = dropbox.Dropbox(DROPBOX_ACCESS_TOKEN)
-
-    try:
-        # Upload the video file to Dropbox
-        with open(video_path, 'rb') as file:
-            dbx.files_upload(file.read(), '/' + os.path.basename(video_path))
-        print("Video uploaded to Dropbox successfully.")
-    except AuthError as e:
-        print("Error authenticating with Dropbox.")
-    except dropbox.exceptions.ApiError as e:
-        print("Error uploading video to Dropbox:", e)
-
-def automate_chatbot_and_upload():
+def automate_chatbot():
     # Open the chatbot application
     subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
 
@@ -49,7 +26,7 @@ def automate_chatbot_and_upload():
     time.sleep(2)
 
     # Type "what is your name"
-    pyautogui.typewrite("what is your name")
+    pyautogui.typewrite("DO YOU KNOW NARENDRA MODI")
 
     # Press "Enter" key to send the message
     pyautogui.press('enter')
@@ -66,14 +43,4 @@ def automate_chatbot_and_upload():
     # Close the application
     pyautogui.hotkey('alt', 'f4')
 
-    # Check for video files in the folder and upload to Dropbox
-    video_files = [file for file in os.listdir(VIDEO_FOLDER_PATH) if file.endswith('.mp4')]
-    if video_files:
-        print("Found video files:", video_files)
-        for video_file in video_files:
-            video_path = os.path.join(VIDEO_FOLDER_PATH, video_file)
-            upload_video_to_dropbox(video_path)
-    else:
-        print("No video files found in the folder.")
-
-automate_chatbot_and_upload()
+automate_chatbot()
