@@ -2,6 +2,7 @@ import subprocess
 import time
 import pyautogui
 import requests
+import os
 
 # Set bearer token
 bearer_token = "AAAAAAAAAAAAAAAAAAAAACzGoQEAAAAAPBUyxZyXrtNzab8B3guBR9e994k%3DDieBbwNezSIZ26haV9I17LcWMpOf2z7nPkC9gYKFJEwL0AnTF3"
@@ -91,6 +92,13 @@ try:
 
             # Wait for Bandicam process to terminate
             bandicam_process.wait()
+
+            # Rename folders to tweet_id inside the Bandicam directory
+            bandicam_dir = r'C:\Program Files\Bandicam'
+            for folder in os.listdir(bandicam_dir):
+                folder_path = os.path.join(bandicam_dir, folder)
+                if os.path.isdir(folder_path):
+                    os.rename(folder_path, os.path.join(bandicam_dir, str(tweet_id)))
 
 except Exception as e:
     print(e)
