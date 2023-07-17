@@ -50,7 +50,7 @@ try:
             time.sleep(2)
 
             # Run Bandicam application
-            subprocess.Popen(r'C:\Program Files\Bandicam\bdcam.exe')
+            bandicam_process = subprocess.Popen(r'C:\Program Files\Bandicam\bdcam.exe')
 
             time.sleep(2)
 
@@ -80,8 +80,17 @@ try:
             # Add a 2-second delay
             time.sleep(2)
 
+            # Press F12 button after opening Bandicam
+            pyautogui.press('f12')
+
             # Wait for 1 minute
             time.sleep(60)
+
+            # Press F12 button again to stop recording
+            pyautogui.press('f12')
+
+            # Wait for Bandicam process to terminate
+            bandicam_process.wait()
 
 except Exception as e:
     print(e)
