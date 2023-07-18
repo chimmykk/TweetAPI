@@ -4,6 +4,7 @@ import subprocess
 import time
 import pyautogui
 
+# Global variables
 server = 'irc.chat.twitch.tv'
 port = 6667
 nickname = 'rilsos'
@@ -12,6 +13,10 @@ channel = 'dylansafeass'
 
 output_folder = "tobereadnow"
 file_counter = 1
+
+# Variables for the application process
+app_process = None
+app_opened = False
 
 def main():
     # Clear console before connecting to the IRC server
@@ -58,22 +63,17 @@ def store_message_to_file(message):
 
 
 def automate_chatbot_with_message(message):
-    # Press "Tab" key three times to navigate to the Doge option
-    pyautogui.press('tab')
-    pyautogui.press('tab')
-    pyautogui.press('tab')
+    global app_process, app_opened
 
-    # Press "Enter" key to select the Doge option
-    pyautogui.press('enter')
+    if not app_opened:
+        # Open the application if it is not already open
+        app_process = subprocess.Popen(['path_to_your_application'])
+        app_opened = True
 
-    time.sleep(2)
+        # Wait for the application to open (adjust the sleep time as needed)
+        time.sleep(5)
 
-    # Press "Tab" key three times to trigger three tabs again
-    pyautogui.press('tab')
-    pyautogui.press('tab')
-    pyautogui.press('tab')
-
-    time.sleep(2)
+    # Perform the automation steps using the opened application
 
     # Type the message from the console
     pyautogui.typewrite(message)
