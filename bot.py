@@ -38,10 +38,12 @@ def main():
                 # Save message to a text file
                 save_message_to_file(message)
 
-                # Automate chatbot using the message from the file
-                automate_chatbot_with_message_from_file()
+                # Pass the new message to the chatbot
+                pass_message_to_chatbot()
 
     except KeyboardInterrupt:
+        if chatbot_process is not None:
+            chatbot_process.terminate()
         sock.close()
         exit()
 
@@ -59,44 +61,47 @@ def save_message_to_file(message):
 
     message_count += 1
 
-def automate_chatbot_with_message(message):
+def pass_message_to_chatbot():
+    global chatbot_process, message_count
+    folder_name = 'toreadnow'
+    file_name = f"{message_count}.txt"
+    file_path = os.path.join(folder_name, file_name)
+
+    if os.path.exists(file_path) and chatbot_process is not None:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            message = file.read()
+
+        # Clear the contents of the text file
+        with open(file_path, 'w'):
+            pass
+
+        # Type the message into the chatbot
+        pyautogui.typewrite(message)
+        pyautogui.press('enter')
+
+    elif message_count > 3:
+        # No new message file found, terminate the chatbot process
+        chatbot_process.terminate()
+        chatbot_process = None
+
+def start_chatbot():
     global chatbot_process
 
-    time.sleep(2)
-
-    # Type the message from the file
-    pyautogui.typewrite(message)
-
-    # Press "Enter" key to send the message
-    pyautogui.press('enter')
-
-def automate_chatbot_with_message_from_file():
-    global message_count, chatbot_process
-
-    folder_name = 'toreadnow'
-
-    while True:
-        file_name = f"{message_count}.txt"
-        file_path = os.path.join(folder_name, file_name)
-
-        if not os.path.exists(file_path):
-            break
-
-        with open(file_path, 'r', encoding='utf-8') as file:
-            message = file.read().strip()
-
-        if chatbot_process is None:
-            chatbot_process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe', shell=True)
-            time.sleep(2)
-            # Press "Tab" key three times to navigate to the Doge option
-            pyautogui.press('tab')
-            pyautogui.press('tab')
-            pyautogui.press('tab')
-            # Press "Enter" key to select the Doge option
-            pyautogui.press('enter')
-            
-        automate_chatbot_with_message(message)
-        message_count += 1
+    if chatbot_process is None:
+        chatbot_process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
+        time.sleep(2)
+        # Press "Tab" key three times to navigate to the Doge option
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        # Press "Enter" key to select the Doge option
+        pyautogui.press('enter')
+        time.sleep(2)
+        # Press "Tab" key three times to trigger three tabs again
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
 
 if __name__ == '__main__':
+    start_chatbot()
     main()
