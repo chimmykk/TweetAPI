@@ -100,5 +100,30 @@ def automate_chatbot_with_message(message):
         pyautogui.press('enter')
 
 
+def update_tobereadnow_folder():
+    while True:
+        # Clear console before updating the folder
+        os.system('cls' if os.name == 'nt' else 'clear')
+
+        # Get the list of files in the "tobereadnow" folder
+        files = os.listdir(output_folder)
+
+        # Print the contents of each file
+        for file in files:
+            filename = os.path.join(output_folder, file)
+            with open(filename, 'r') as file:
+                content = file.read()
+                print(content)
+
+        # Wait for 2 minutes before updating again
+        time.sleep(120)
+
+
 if __name__ == '__main__':
+    # Start the folder update process in a separate thread
+    folder_update_thread = threading.Thread(target=update_tobereadnow_folder)
+    folder_update_thread.daemon = True
+    folder_update_thread.start()
+
+    # Start the main chatbot process
     main()
