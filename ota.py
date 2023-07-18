@@ -3,6 +3,8 @@ import socket
 import subprocess
 import time
 import pyautogui
+import threading
+from queue import Queue
 
 # Global variables
 server = 'irc.chat.twitch.tv'
@@ -12,12 +14,13 @@ token = 'oauth:wb7ph6zjttttvdtk9x3uz27vy8umdi'
 channel = 'dylansafeass'
 
 output_folder = "tobereadnow"
-file_counter = 1
+message_queue = Queue()
 
 # Variables for the application process
 app_process = None
 app_opened = False
 application_path = r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe'
+
 
 def main():
     # Clear console before connecting to the IRC server
@@ -28,6 +31,9 @@ def main():
     sock.send(f"PASS {token}\r\n".encode('utf-8'))
     sock.send(f"NICK {nickname}\r\n".encode('utf-8'))
     sock.send(f"JOIN #{channel}\r\n".encode('utf-8'))
+
+    message_processor_thread = threading.Thread(target=process_message_queue)
+    message_processor_thread.start()
 
     try:
         while True:
@@ -44,23 +50,26 @@ def main():
                 if not message.startswith('End of /NAMES list'):
                     print(message)
 
-                    # Store the message to a text file
-                    store_message_to_file(message)
-
-                    # Automate chatbot using the message from the console
-                    automate_chatbot_with_message(message)
+                    # Add the message to the queue
+                    message_queue.put(message)
 
     except KeyboardInterrupt:
         sock.close()
+        message_queue.join()
         exit()
 
 
-def store_message_to_file(message):
-    global file_counter
-    filename = f"{output_folder}/{file_counter}.txt"
-    with open(filename, 'w') as file:
-        file.write(message)
-    file_counter += 1
+def process_message_queue():
+    while True:
+        message = message_queue.get()
+        save_message_to_file(message)
+        message_queue.task_done()
+
+
+def save_message_to_file(message):
+    filename = os.path.join(output_folder, 'theprompt.txt')
+    with open(filename, 'a') as file:
+        file.write(message + '\n')
 
 
 def automate_chatbot_with_message(message):
