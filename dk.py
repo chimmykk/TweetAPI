@@ -102,6 +102,17 @@ def automate_chatbot_with_message(message):
         # Wait for the message to be sent (adjust the sleep time as needed)
         time.sleep(2)
 
+        # Trigger three tabs again
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+
+        # Type the new message received on the console
+        pyautogui.typewrite(message)
+
+        # Press "Enter" key to send the new message
+        pyautogui.press('enter')
+
 
 if __name__ == '__main__':
     main()
