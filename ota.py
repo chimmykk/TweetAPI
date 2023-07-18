@@ -13,9 +13,6 @@ channel = 'dylansafeass'
 output_folder = "tobereadnow"
 file_counter = 1
 
-chatbot_process = None  # Global variable to store the chatbot subprocess
-last_activity_time = time.time()  # Track the last activity time
-
 def main():
     # Clear console before connecting to the IRC server
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -47,24 +44,7 @@ def main():
                     # Automate chatbot using the message from the console
                     automate_chatbot_with_message(message)
 
-                    # Check if 2 minutes have elapsed since the last activity
-                    current_time = time.time()
-                    if current_time - last_activity_time >= 120:
-                        close_chatbot_process()
-                        last_activity_time = current_time  # Update the last activity time
-
-            if chatbot_process is not None and chatbot_process.poll() is None:
-                # Check if 10 seconds have elapsed since the chatbot process was started
-                current_time = time.time()
-                if current_time - last_activity_time >= 10:
-                    close_chatbot_process()
-                    chatbot_process = None  # Reset the chatbot process
-
-                    # Update the last activity time to the current time
-                    last_activity_time = current_time
-
     except KeyboardInterrupt:
-        close_chatbot_process()
         sock.close()
         exit()
 
@@ -78,13 +58,6 @@ def store_message_to_file(message):
 
 
 def automate_chatbot_with_message(message):
-    global chatbot_process
-
-    if chatbot_process is None or chatbot_process.poll() is not None:
-        # Chatbot process is not running or has exited, so start a new one
-        chatbot_process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
-        time.sleep(2)
-
     # Press "Tab" key three times to navigate to the Doge option
     pyautogui.press('tab')
     pyautogui.press('tab')
@@ -107,15 +80,6 @@ def automate_chatbot_with_message(message):
 
     # Press "Enter" key to send the message
     pyautogui.press('enter')
-
-
-def close_chatbot_process():
-    global chatbot_process
-
-    if chatbot_process is not None and chatbot_process.poll() is None:
-        # Chatbot process is running, so terminate it
-        chatbot_process.terminate()
-        chatbot_process.wait()  # Wait for the process to exit
 
 
 if __name__ == '__main__':
