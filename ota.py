@@ -53,6 +53,16 @@ def main():
                         close_chatbot_process()
                         last_activity_time = current_time  # Update the last activity time
 
+            if chatbot_process is not None and chatbot_process.poll() is None:
+                # Check if 10 seconds have elapsed since the chatbot process was started
+                current_time = time.time()
+                if current_time - last_activity_time >= 10:
+                    close_chatbot_process()
+                    chatbot_process = None  # Reset the chatbot process
+
+                    # Update the last activity time to the current time
+                    last_activity_time = current_time
+
     except KeyboardInterrupt:
         close_chatbot_process()
         sock.close()
