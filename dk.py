@@ -76,41 +76,15 @@ def automate_chatbot_with_message(message):
 
     # Perform the automation steps using the opened application
     if app_opened:
-        # Press "Tab" key three times to navigate to the Doge option
+        # Trigger three tabs
         pyautogui.press('tab')
         pyautogui.press('tab')
         pyautogui.press('tab')
 
-        # Press "Enter" key to select the Doge option
-        pyautogui.press('enter')
-
-        time.sleep(2)
-
-        # Press "Tab" key three times to trigger three tabs again
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-
-        time.sleep(2)
-
-        # Type the message from the console
+        # Type the latest message received
         pyautogui.typewrite(message)
 
         # Press "Enter" key to send the message
-        pyautogui.press('enter')
-
-        # Wait for the message to be sent (adjust the sleep time as needed)
-        time.sleep(2)
-
-        # Trigger three tabs again
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-
-        # Type the new message received on the console
-        pyautogui.typewrite(message)
-
-        # Press "Enter" key to send the new message
         pyautogui.press('enter')
 
 
