@@ -10,6 +10,8 @@ nickname = 'rilsos'
 token = 'oauth:wb7ph6zjttttvdtk9x3uz27vy8umdi'
 channel = 'dylansafeass'
 
+output_folder = "tobereadnow"
+file_counter = 1
 
 def main():
     # Clear console before connecting to the IRC server
@@ -36,12 +38,23 @@ def main():
                 if not message.startswith('End of /NAMES list'):
                     print(message)
 
+                    # Store the message to a text file
+                    store_message_to_file(message)
+
                     # Automate chatbot using the message from the console
                     automate_chatbot_with_message(message)
 
     except KeyboardInterrupt:
         sock.close()
         exit()
+
+
+def store_message_to_file(message):
+    global file_counter
+    filename = f"{output_folder}/{file_counter}.txt"
+    with open(filename, 'w') as file:
+        file.write(message)
+    file_counter += 1
 
 
 def automate_chatbot_with_message(message):
