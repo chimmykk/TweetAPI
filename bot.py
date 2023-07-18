@@ -80,9 +80,10 @@ def pass_message_to_chatbot():
         pyautogui.press('enter')
 
     elif message_count > 3:
-        # No new message file found, terminate the chatbot process
-        chatbot_process.terminate()
-        chatbot_process = None
+        # No new message file found
+        if chatbot_process is not None:
+            chatbot_process.terminate()
+            chatbot_process = None
 
 def start_chatbot():
     global chatbot_process
