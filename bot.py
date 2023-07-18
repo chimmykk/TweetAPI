@@ -10,11 +10,13 @@ nickname = 'rilsos'
 token = 'oauth:wb7ph6zjttttvdtk9x3uz27vy8umdi'
 channel = 'dylansafeass'
 
-message_count = 3  # Start reading from 3.txt
-
-chatbot_process = None
+output_folder = "tobereadnow"
+file_counter = 1
 
 def main():
+    # Clear console before connecting to the IRC server
+    os.system('cls' if os.name == 'nt' else 'clear')
+
     sock = socket.socket()
     sock.connect((server, port))
     sock.send(f"PASS {token}\r\n".encode('utf-8'))
@@ -33,76 +35,69 @@ def main():
                 # Clear console before printing the new message
                 os.system('cls' if os.name == 'nt' else 'clear')
 
-                print(message)
+                if not message.startswith('End of /NAMES list'):
+                    print(message)
 
-                # Save message to a text file
-                save_message_to_file(message)
+                    # Store the message to a text file
+                    store_message_to_file(message)
 
-                # Pass the new message to the chatbot
-                pass_message_to_chatbot()
+                    # Automate chatbot using the message from the console
+                    automate_chatbot_with_message(message)
 
     except KeyboardInterrupt:
-        if chatbot_process is not None:
-            chatbot_process.terminate()
         sock.close()
         exit()
 
-def save_message_to_file(message):
-    global message_count
-    folder_name = 'toreadnow'
-    file_name = f"{message_count}.txt"
-    file_path = os.path.join(folder_name, file_name)
 
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
+def store_message_to_file(message):
+    global file_counter
+    filename = f"{output_folder}/{file_counter}.txt"
+    with open(filename, 'a') as file:  # Use 'a' (append) mode instead of 'w' (write) mode
+        file.write(message + '\n')  # Append the message to the existing file
+    file_counter += 1
 
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(message)
 
-    message_count += 1
+def automate_chatbot_with_message(message):
+    time.sleep(2)
 
-def pass_message_to_chatbot():
-    global chatbot_process, message_count
-    folder_name = 'toreadnow'
-    file_name = f"{message_count}.txt"
-    file_path = os.path.join(folder_name, file_name)
+    # Press "Tab" key three times to navigate to the Doge option
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
 
-    if os.path.exists(file_path) and chatbot_process is not None:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            message = file.read()
+    # Press "Enter" key to select the Doge option
+    pyautogui.press('enter')
 
-        # Clear the contents of the text file
-        with open(file_path, 'w'):
-            pass
+    time.sleep(2)
 
-        # Type the message into the chatbot
-        pyautogui.typewrite(message)
+    # Press "Tab" key three times to trigger three tabs again
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+    pyautogui.press('tab')
+
+    time.sleep(2)
+
+    # Type the message from the console
+    pyautogui.typewrite(message)
+
+    # Press "Enter" key to send the message
+    pyautogui.press('enter')
+
+    # Open the application that was opened before
+    subprocess.Popen(["path_to_application"])
+
+    # Extract text from the text files in the 'tobereadnow' folder
+    for i in range(1, file_counter):
+        filename = f"{output_folder}/{i}.txt"
+        with open(filename, 'r') as file:
+            content = file.read().strip()
+
+        # Type the content of the text file
+        pyautogui.typewrite(content)
+
+        # Press "Enter" key to send the content
         pyautogui.press('enter')
 
-    elif message_count > 3:
-        # No new message file found
-        if chatbot_process is not None:
-            chatbot_process.terminate()
-            chatbot_process = None
-
-def start_chatbot():
-    global chatbot_process
-
-    if chatbot_process is None:
-        chatbot_process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
-        time.sleep(2)
-        # Press "Tab" key three times to navigate to the Doge option
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        # Press "Enter" key to select the Doge option
-        pyautogui.press('enter')
-        time.sleep(2)
-        # Press "Tab" key three times to trigger three tabs again
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
 
 if __name__ == '__main__':
-    start_chatbot()
     main()
