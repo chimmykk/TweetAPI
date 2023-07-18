@@ -17,6 +17,7 @@ file_counter = 1
 # Variables for the application process
 app_process = None
 app_opened = False
+application_path = r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe'
 
 def main():
     # Clear console before connecting to the IRC server
@@ -67,7 +68,7 @@ def automate_chatbot_with_message(message):
 
     if not app_opened:
         # Open the application if it is not already open
-        app_process = subprocess.Popen(['path_to_your_application'])
+        app_process = subprocess.Popen([application_path])
         app_opened = True
 
         # Wait for the application to open (adjust the sleep time as needed)
