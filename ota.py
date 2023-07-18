@@ -47,10 +47,16 @@ def main():
                     # Store the message to a text file
                     store_message_to_file(message)
 
-                    # Get user input for the new message
-                    new_message = input("Enter a new message: ")
+                    # Use the printed message as the new message
+                    new_message = message
 
                     # Automate chatbot using the new message
+                    automate_chatbot_with_message(new_message)
+
+                    # Prompt for a new message
+                    new_message = input("Enter a new message: ")
+
+                    # Automate chatbot using the new input message
                     automate_chatbot_with_message(new_message)
 
     except KeyboardInterrupt:
