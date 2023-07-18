@@ -84,7 +84,7 @@ def automate_chatbot_with_message(message):
     pyautogui.press('enter')
 
     # Open the application that was opened before
-    subprocess.Popen(["path_to_application"])
+    subprocess.Popen(['C:\\Users\\paperspace\\Downloads\\AllCharactersAI_v0.18\\AllCharactersAI_v0.18\\Windows\\Chatbot_Characters.exe'])
 
     # Extract text from the text files in the 'tobereadnow' folder
     for i in range(1, file_counter):
