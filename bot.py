@@ -3,6 +3,7 @@ import socket
 import subprocess
 import time
 import pyautogui
+import glob
 
 server = 'irc.chat.twitch.tv'
 port = 6667
@@ -44,7 +45,7 @@ def main():
                     store_message_to_file(message)
 
                     # Automate chatbot using the message from the console
-                    automate_chatbot_with_message(message)
+                    automate_chatbot_with_message()
 
     except KeyboardInterrupt:
         sock.close()
@@ -59,36 +60,46 @@ def store_message_to_file(message):
     file_counter += 1
 
 
-def automate_chatbot_with_message(message):
+def automate_chatbot_with_message():
     global chatbot_process
+    global file_counter
 
     if chatbot_process is None or chatbot_process.poll() is not None:
-        # Chatbot process is not running or has exited, so start a new one
         chatbot_process = subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
         time.sleep(2)
 
-    # Press "Tab" key three times to navigate to the Doge option
-    pyautogui.press('tab')
-    pyautogui.press('tab')
-    pyautogui.press('tab')
+    file_path = f"{output_folder}/{file_counter}.txt"
+    files = glob.glob(f"{output_folder}/*.txt")
 
-    # Press "Enter" key to select the Doge option
-    pyautogui.press('enter')
+    if file_path in files:
+        with open(file_path, 'r') as file:
+            message = file.read()
 
-    time.sleep(2)
+        # Press "Tab" key three times to navigate to the Doge option
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
 
-    # Press "Tab" key three times to trigger three tabs again
-    pyautogui.press('tab')
-    pyautogui.press('tab')
-    pyautogui.press('tab')
+        # Press "Enter" key to select the Doge option
+        pyautogui.press('enter')
 
-    time.sleep(2)
+        time.sleep(2)
 
-    # Type the message from the console
-    pyautogui.typewrite(message)
+        # Press "Tab" key three times to trigger three tabs again
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
 
-    # Press "Enter" key to send the message
-    pyautogui.press('enter')
+        time.sleep(2)
+
+        # Type the message from the file
+        pyautogui.typewrite(message)
+
+        # Press "Enter" key to send the message
+        pyautogui.press('enter')
+
+        # Increment file counter for the next file
+        file_counter += 1
 
 
 if __name__ == '__main__':
