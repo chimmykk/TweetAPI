@@ -45,7 +45,7 @@ def main():
                     store_message_to_file(message)
 
                     # Automate chatbot using the message from the console
-                    automate_chatbot_with_message()
+                    automate_chatbot_with_message(message)
 
     except KeyboardInterrupt:
         sock.close()
@@ -60,7 +60,7 @@ def store_message_to_file(message):
     file_counter += 1
 
 
-def automate_chatbot_with_message():
+def automate_chatbot_with_message(message):
     global chatbot_process
     global file_counter
 
@@ -74,6 +74,8 @@ def automate_chatbot_with_message():
     if file_path in files:
         with open(file_path, 'r') as file:
             message = file.read()
+
+        time.sleep(2)
 
         # Press "Tab" key three times to navigate to the Doge option
         pyautogui.press('tab')
@@ -92,7 +94,7 @@ def automate_chatbot_with_message():
 
         time.sleep(2)
 
-        # Type the message from the file
+        # Type the message from the console
         pyautogui.typewrite(message)
 
         # Press "Enter" key to send the message
