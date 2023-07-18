@@ -72,7 +72,7 @@ def automate_chatbot_with_message(message):
         app_opened = True
 
         # Wait for the application to open (adjust the sleep time as needed)
-        time.sleep(5)
+        time.sleep(2)
 
     # Perform the automation steps using the opened application
     if app_opened:
@@ -80,11 +80,9 @@ def automate_chatbot_with_message(message):
         pyautogui.press('tab')
         pyautogui.press('tab')
         pyautogui.press('tab')
-
-        # Type the latest message received
-        pyautogui.typewrite(message)
-
-        # Press "Enter" key to send the message
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        # Press "Enter" key
         pyautogui.press('enter')
 
 
