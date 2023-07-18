@@ -51,7 +51,7 @@ def main():
                     current_time = time.time()
                     if current_time - last_activity_time >= 120:
                         close_chatbot_process()
-                        last_activity_time = current_time
+                        last_activity_time = current_time  # Update the last activity time
 
     except KeyboardInterrupt:
         close_chatbot_process()
