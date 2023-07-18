@@ -45,7 +45,7 @@ def main():
                     store_message_to_file(message)
 
                     # Automate chatbot using the message from the console
-                    automate_chatbot_with_message(message)
+                    automate_chatbot_with_message()
 
     except KeyboardInterrupt:
         sock.close()
@@ -60,7 +60,7 @@ def store_message_to_file(message):
     file_counter += 1
 
 
-def automate_chatbot_with_message(message):
+def automate_chatbot_with_message():
     global chatbot_process
     global file_counter
 
@@ -102,6 +102,9 @@ def automate_chatbot_with_message(message):
 
         # Increment file counter for the next file
         file_counter += 1
+
+        # Give some time for the chatbot to process the message
+        time.sleep(2)
 
 
 if __name__ == '__main__':
