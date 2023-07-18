@@ -52,14 +52,12 @@ def main():
 def store_message_to_file(message):
     global file_counter
     filename = f"{output_folder}/{file_counter}.txt"
-    with open(filename, 'w') as file:
-        file.write(message)
+    with open(filename, 'a') as file:  # Use 'a' (append) mode instead of 'w' (write) mode
+        file.write(message + '\n')  # Append the message to the existing file
     file_counter += 1
 
 
 def automate_chatbot_with_message(message):
-    subprocess.Popen(r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe')
-
     time.sleep(2)
 
     # Press "Tab" key three times to navigate to the Doge option
