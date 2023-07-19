@@ -3,6 +3,8 @@ import socket
 import subprocess
 import time
 import pyautogui
+import win32gui
+import win32con
 
 # Global variables
 server = 'irc.chat.twitch.tv'
@@ -72,18 +74,30 @@ def automate_chatbot_with_message(message):
         app_opened = True
 
         # Wait for the application to open (adjust the sleep time as needed)
-        time.sleep(2)
+        time.sleep(5)
 
-    # Perform the automation steps using the opened application
-    if app_opened:
-        # Trigger three tabs
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        pyautogui.press('tab')
-        # Press "Enter" key
-        pyautogui.press('enter')
+    # Get the window handle of the application
+    hwnd = win32gui.FindWindow(None, 'Chatbot_Characters')
+
+    if hwnd:
+        # Set the window as the foreground window
+        win32gui.SetForegroundWindow(hwnd)
+
+        # Perform the automation steps using the opened application
+        if app_opened:
+            # Trigger three tabs
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+
+            # Type the latest message received
+            pyautogui.typewrite(message)
+
+            # Simulate right-click
+            pyautogui.click(button='right')
+
+            # Press "Enter" key to send the message
+            pyautogui.press('enter')
 
 
 if __name__ == '__main__':
