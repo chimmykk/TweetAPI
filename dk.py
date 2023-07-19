@@ -13,6 +13,8 @@ app_opened = False
 application_path = r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllCharactersAI_v0.18\Windows\Chatbot_Characters.exe'
 
 def main():
+    global file_counter  # Make file_counter global
+
     # Clear console before starting
     os.system('cls' if os.name == 'nt' else 'clear')
 
