@@ -3,8 +3,7 @@ import socket
 import subprocess
 import time
 import pyautogui
-import win32gui
-import win32con
+import requests
 
 # Global variables
 server = 'irc.chat.twitch.tv'
@@ -76,29 +75,57 @@ def automate_chatbot_with_message(message):
         # Wait for the application to open (adjust the sleep time as needed)
         time.sleep(5)
 
-    # Get the window handle of the application
-    hwnd = win32gui.FindWindow(None, 'Chatbot_Characters')
+    # Perform the automation steps using the opened application
+    if app_opened:
+        # Trigger three tabs
+        pyautogui.rightClick()
+        pyautogui.press('tab')
+        pyautogui.press('tab')
+        pyautogui.press('tab')
 
-    if hwnd:
-        # Set the window as the foreground window
-        win32gui.SetForegroundWindow(hwnd)
+        # Type the latest message received
+        pyautogui.typewrite(message)
 
-        # Perform the automation steps using the opened application
-        if app_opened:
-            # Trigger three tabs
-            pyautogui.press('tab')
-            pyautogui.press('tab')
-            pyautogui.press('tab')
+        # Press "Enter" key to send the message
+        pyautogui.press('enter')
 
-            # Type the latest message received
-            pyautogui.typewrite(message)
+        # Check if the message contains cryptocurrency tickers
+        cryptocurrencies = ["BTC", "LTC", "ETH"]  # Add more tickers as needed
+        for ticker in cryptocurrencies:
+            if ticker in message:
+                # Fetch cryptocurrency data from CoinMarketCap
+                cmc_api_key = "be7d2dbf-cdd1-4aa3-8876-75a7e241526e"
+                cmc_base_url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
+                params = {
+                    "symbol": ticker,
+                    "convert": "USD"  # You can change the currency to any desired fiat or cryptocurrency
+                }
+                headers = {
+                    "Accepts": "application/json",
+                    "X-CMC_PRO_API_KEY": cmc_api_key
+                }
 
-            # Simulate right-click
-            pyautogui.click(button='right')
+                response = requests.get(cmc_base_url, params=params, headers=headers)
 
-            # Press "Enter" key to send the message
-            pyautogui.press('enter')
+                if response.status_code == 200:
+                    data = response.json()
+                    if ticker in data["data"]:
+                        coin_data = data["data"][ticker]
+                        name = coin_data["name"]
+                        price = coin_data["quote"]["USD"]["price"]
+                        percent_change_24h = coin_data["quote"]["USD"]["percent_change_24h"]
+
+                        # Prepare the response with cryptocurrency data
+                        response_message = f"{name} (Ticker: {ticker}) - Price: ${price:.2f} USD, 24h Change: {percent_change_24h:.2f}%"
+
+                        # Perform the automation steps using the opened application
+                        if app_opened:
+                            # Type the cryptocurrency data as a response
+                            pyautogui.typewrite(response_message)
+
+                            # Press "Enter" key to send the response
+                            pyautogui.press('enter')
 
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
