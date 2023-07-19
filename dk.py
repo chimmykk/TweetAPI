@@ -4,7 +4,7 @@ import time
 import pyautogui
 
 # Global variables
-output_folder = "todynews"
+input_folder = "todynews"
 file_counter = 1
 
 # Variables for the application process
@@ -17,7 +17,7 @@ def main():
     os.system('cls' if os.name == 'nt' else 'clear')
 
     while True:
-        filename = f"{output_folder}/{file_counter}.txt"
+        filename = f"{input_folder}/{file_counter}.txt"
         if os.path.exists(filename):
             with open(filename, 'r') as file:
                 message = file.read()
@@ -29,14 +29,11 @@ def main():
             # Automate chatbot using the message from the file
             automate_chatbot_with_message(message)
 
-            # Remove the processed file
-            os.remove(filename)
-
             # Increment the file counter
             file_counter += 1
 
-        # Check for new files every second (adjust the sleep time as needed)
-        time.sleep(1)
+        # Wait for 3 minutes before processing the next file
+        time.sleep(180)
 
 
 def automate_chatbot_with_message(message):
