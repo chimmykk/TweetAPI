@@ -24,9 +24,8 @@ def main():
             with open(filename, 'r') as file:
                 message = file.read()
 
-            # Clear console before printing the new message
+            # Clear console before typing the new message
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(message)
 
             # Automate chatbot using the message from the file
             automate_chatbot_with_message(message)
