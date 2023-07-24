@@ -65,7 +65,7 @@ def process_folder(folder):
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
             if os.path.isfile(file_path):
-                with open(file_path, "r") as file:
+                with open(file_path, "r", encoding="utf-8") as file:  # Specify encoding as utf-8
                     message = file.read()
                     sentences = extract_sentences_from_message(message)
 
