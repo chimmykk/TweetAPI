@@ -19,7 +19,7 @@ application_path = r'C:\Users\paperspace\Downloads\AllCharactersAI_v0.18\AllChar
 
 def fetch_news(category):
     """Fetches news from the News API based on the provided category."""
-    url = f"https://newsapi.org/v2/everything?q={category}&language=en&sortBy=publishedAt&apiKey=0d82bbd91c974f81ae2df4b190404fbd"
+    url = f"https://newsapi.org/v2/everything?q={category}&language=en&sortBy=publishedAt&apiKey=YOUR_NEWS_API_KEY"
     response = requests.get(url)
     if response.status_code == 200:
         data = json.loads(response.content)
@@ -28,9 +28,6 @@ def fetch_news(category):
         return None
 
 def main():
-    global app_opened
-    app_opened = False
-
     categories = ["crypto", "sports", "weather", "worldnews"]
     for category in categories:
         news = fetch_news(category)
@@ -60,12 +57,15 @@ def main():
         process_folder(folder)
 
 def process_folder(folder):
+    global app_opened  # Declare app_opened as a global variable
+    app_opened = False  # Reset app_opened for each folder
+
     folder_path = os.path.join(os.getcwd(), folder)
     if os.path.exists(folder_path):
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
             if os.path.isfile(file_path):
-                with open(file_path, "r", encoding="utf-8") as file:  # Specify encoding as utf-8
+                with open(file_path, "r", encoding="utf-8") as file:
                     message = file.read()
                     sentences = extract_sentences_from_message(message)
 
